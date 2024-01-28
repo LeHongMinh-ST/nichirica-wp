@@ -1,0 +1,38 @@
+.about_environmental_policy {
+  margin-bottom: 130px!important;
+  &__content {
+    width: 820px;
+    margin:  0 auto;
+  }
+
+  &__item {
+    margin-top: 40px;
+    &:first-child {
+      margin-top: 80px;
+    }
+    .header {
+      color: #000;
+      font-family: Inter, sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 18px 0;
+
+      border-bottom: 1px solid #89887F80;
+    }
+
+    .content {
+      margin-top: 40px;
+
+      .sub-header {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 36px */
+      }
+    }
+  }
+}
