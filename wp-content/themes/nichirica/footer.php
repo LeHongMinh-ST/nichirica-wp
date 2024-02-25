@@ -15,37 +15,37 @@
   <div class="main-footer size">
     <div class="item-list">
       <div class="title-list">
-        <a href="">企業情報</a>
+        <a href="<?= get_permalink(get_page_by_path('about')) ?>">企業情報</a>
       </div>
     </div>
     <div class="item-list">
       <div class="title-list">
-        <a href="">製品情報</a>
+        <a href="<?= get_permalink(get_page_by_path('product')) ?>">製品情報</a>
       </div>
     </div>
     <div class="item-list">
       <div class="title-list">
-        <a href="">技術開発情報</a>
+        <a href="<?= get_permalink(get_page_by_path('services')) ?>">技術開発情報</a>
       </div>
     </div>
     <div class="item-list">
       <div class="title-list">
-        <a href="">採用情報</a>
+        <a href="<?= get_permalink(get_page_by_path('recruitment')) ?>">採用情報</a>
       </div>
       <ul class="list-menu">
         <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('recruitment-new-graduates')) ?>">
+            新卒
           </a>
         </li>
         <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('recruitment-mid-term')) ?>">
+            中途
           </a>
         </li>
         <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('recruitment-mid-term')) ?>">
+            パート
           </a>
         </li>
       </ul>
@@ -84,11 +84,11 @@
     </div>
     <div class="item-list">
       <div class="title-list">
-        <a href="">ニュース</a>
+        <a href="<?= get_permalink( get_option( 'page_for_posts' ) );?>">ニュース</a>
       </div>
       <ul class="list-menu">
         <li>
-          <a href="">
+          <a href="/inquiry">
             お問い合わせ
           </a>
         </li>

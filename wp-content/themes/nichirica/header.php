@@ -8,6 +8,9 @@
  *
  * @package Nichirica
  */
+$current_page_id = get_the_ID();
+$current_page = get_post($current_page_id);
+$current_page_slug = !empty($current_page->post_name) ? $current_page->post_name : ''
 
 ?>
 <!doctype html>
@@ -23,18 +26,53 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <header class="header-main size">
-  <div class="logo">
-    <a href="index.html">
-      <img src="<?= THEME_URI ?>/assets/images/logo.svg" alt="logo">
-    </a>
+  <div class="menu">
+    <div class="logo">
+      <a href="<?= get_home_url()?>">
+        <img src="<?= THEME_URI ?>/assets/images/logo.svg" alt="logo">
+      </a>
+    </div>
+    <div class="list-menu-wrap">
+      <?php
+      wp_nav_menu([
+        'theme_location' => 'menu-1',
+        'menu_id' => 'primary-menu',
+        'items_wrap' => '<ul id="%1$s" class="%2$s list-menu">%3$s</ul>',
+      ])
+      ?>
+      <ul class="list-locale">
+        <li class="item-locale"><a href="/<?=$current_page_slug?>">JA</a></li>
+        <li class="item-locale">/</li>
+        <li class="item-locale"><a href="/en/<?=$current_page_slug?>">EN</a></li>
+      </ul>
+    </div>
+
   </div>
-  <ul class="list-menu">
-    <li class="item-menu"><a href="about.html">企業情報</a></li>
-    <li class="item-menu"><a href="products.html">製品情報</a></li>
-    <li class="item-menu"><a href="service.html">技術開発情報</a></li>
-    <li class="item-menu"><a href="recruitment.html">採用情報</a></li>
-    <li class="item-menu"><a href="inquiry.html">環境</a></li>
-    <li class="item-menu"><a href="entry.html">お問い合わせ</a></li>
-    <li class="item-menu"><a href="">JA / EN</a></li>
-  </ul>
+  <div class="menu-mb">
+    <div class="logo">
+      <a href="<?= get_home_url()?>">
+        <img src="<?= THEME_URI ?>/assets/images/logo.svg" alt="logo">
+      </a>
+    </div>
+    <div class="iconMenu twoLineMenuMB">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="menu-mb-detail">
+
+    <?php
+    wp_nav_menu([
+      'theme_location' => 'menu-1',
+      'menu_id' => 'primary-menu',
+      'items_wrap' => '<ul id="%1$s" class="%2$s list-menu">%3$s</ul>',
+    ])
+    ?>
+    <ul class="list-locale">
+      <li class="item-locale"><a href="/<?=$current_page_slug?>">JA</a></li>
+      <li class="item-locale">/</li>
+      <li class="item-locale"><a href="/en/<?=$current_page_slug?>">EN</a></li>
+    </ul>
+  </div>
 </header>
