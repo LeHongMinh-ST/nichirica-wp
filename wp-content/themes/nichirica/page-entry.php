@@ -5,7 +5,9 @@ Template Name: Entry
 
 get_header();
 ?>
-
+<?php
+get_template_part('template-parts/banners/banner-no-image');
+?>
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">

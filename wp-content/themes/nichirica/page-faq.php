@@ -16,7 +16,7 @@ get_header();
         <div class=" accordion noneBorder qa" id="accordionExample">
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading1">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -31,7 +31,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading2">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -46,7 +46,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading3">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -61,7 +61,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading4">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -76,7 +76,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading5">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -98,7 +98,7 @@ get_header();
         <div class=" accordion noneBorder qa" id="accordionExample">
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading6">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -120,7 +120,7 @@ get_header();
         <div class=" accordion noneBorder qa" id="accordionExample">
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading7">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -135,7 +135,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading8">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -150,7 +150,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading9">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -165,7 +165,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading10">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -180,7 +180,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading11">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>
@@ -195,7 +195,7 @@ get_header();
           </div>
           <div class="accordion-item noneBorder noneBg">
             <h2 class="accordion-header" id="heading12">
-              <div class="accordion-button noneBorder noneBg" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+              <div class="accordion-button noneBorder noneBg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
                 <div class="image-arr">
                   <img  src="<?= THEME_URI?>/assets/images/arr-down.svg" alt="">
                 </div>

@@ -34,17 +34,17 @@
       </div>
       <ul class="list-menu">
         <li>
-          <a href="<?= get_permalink(get_page_by_path('recruitment-new-graduates')) ?>">
+          <a href="<?= get_permalink(get_page_by_path('recruitment/new-graduates')) ?>">
             新卒
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('recruitment-mid-term')) ?>">
+          <a href="<?= get_permalink(get_page_by_path('recruitment/mid-term')) ?>">
             中途
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('recruitment-mid-term')) ?>">
+          <a href="<?= get_permalink(get_page_by_path('recruitment/mid-term')) ?>">
             パート
           </a>
         </li>

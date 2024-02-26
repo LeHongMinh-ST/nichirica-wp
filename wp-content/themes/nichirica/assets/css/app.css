@@ -1,5 +1,41 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+.mr-top-80 {
+  margin-top: 80px !important;
+}
+@media screen and (max-width: 430px) {
+  .mr-top-80 {
+    margin-top: 40px !important;
+  }
+}
+
+.mr-top-40 {
+  margin-top: 40px !important;
+}
+@media screen and (max-width: 430px) {
+  .mr-top-40 {
+    margin-top: 20px !important;
+  }
+}
+
+.mr-bottom-80 {
+  margin-bottom: 80px !important;
+}
+@media screen and (max-width: 430px) {
+  .mr-bottom-80 {
+    margin-bottom: 40px !important;
+  }
+}
+
+.mr-bottom-40 {
+  margin-bottom: 40px !important;
+}
+@media screen and (max-width: 430px) {
+  .mr-bottom-40 {
+    margin-bottom: 20px !important;
+  }
+}
+
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -624,6 +660,11 @@
   min-width: 513px;
   text-align: left;
 }
+@media screen and (max-width: 430px) {
+  .recruitment_benefits__item .text-wrapper {
+    min-width: 100%;
+  }
+}
 
 .recruitment_benefits2 {
   margin-top: 40px !important;
@@ -663,6 +704,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  position: relative;
 }
 @media screen and (max-width: 430px) {
   .recruitment_benefits2__item {
@@ -671,9 +713,12 @@
   }
 }
 .recruitment_benefits2__item .item-content {
-  margin-top: 200px;
-  padding-bottom: 20px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0));
+  padding: 20px 25px;
 }
 .recruitment_benefits2__item .item-content .item-header .title {
   color: #FFF;
@@ -682,7 +727,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 30px;
 }
 .recruitment_benefits2__item .item-content .item-header .line {
   display: flex;
@@ -700,7 +744,7 @@
 }
 .recruitment_benefits2__item .item-content .item-btn {
   margin-top: 30px;
-  text-align: center;
+  text-align: right;
 }
 .recruitment_benefits2__item .item-content .item-btn a {
   display: inline-block;
@@ -771,7 +815,7 @@
   margin-bottom: 150px !important;
 }
 .about_message__left {
-  max-width: 496px;
+  max-width: 495px;
 }
 .about_message .about_message__content_pc {
   display: flex;
@@ -922,8 +966,19 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(137, 136, 127, 0.5019607843);
+}
+.about_environmental_policy__item .header .header-line {
+  margin-top: 12px;
+  width: 100%;
+}
+.about_environmental_policy__item .header .header-line .line {
+  width: 100%;
+  background: rgba(137, 136, 127, 0.5019607843);
+  height: 1px;
+}
+.about_environmental_policy__item .header .header-line .line-center {
+  width: 103px;
+  background: #009E9C;
 }
 @media screen and (max-width: 430px) {
   .about_environmental_policy__item .header {
@@ -931,13 +986,6 @@
   }
   .about_environmental_policy__item .header span.header-text {
     display: inline-block;
-  }
-  .about_environmental_policy__item .header span.header-text::after {
-    content: "";
-    display: block;
-    width: 103px;
-    height: 1px;
-    background: #009e9c;
   }
 }
 .about_environmental_policy__item .content {
@@ -947,6 +995,9 @@
   .about_environmental_policy__item .content {
     font-size: 20px;
   }
+}
+.about_environmental_policy__item .content a {
+  color: #009E9C;
 }
 .about_environmental_policy__item .content .sub-header {
   color: #000;
@@ -1291,6 +1342,118 @@
   border-bottom: 1px solid #009d9b;
 }
 
+.about_us {
+  width: 820px;
+  margin: 0 auto;
+  margin-top: 40px !important;
+}
+@media screen and (max-width: 430px) {
+  .about_us {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.about_us .section-header--line {
+  width: 100%;
+}
+.about_us--item {
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 48px;
+}
+.about_us--item img {
+  width: 100%;
+}
+.about_us--item.img-last {
+  text-align: center;
+}
+.about_us--item.img-last img {
+  width: 608px;
+}
+@media screen and (max-width: 430px) {
+  .about_us--item.img-last img {
+    width: 100%;
+  }
+}
+
+.about_tape {
+  width: 820px;
+  margin: 0 auto;
+  margin-top: 40px !important;
+}
+@media screen and (max-width: 430px) {
+  .about_tape {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.about_tape .section-header--line {
+  width: 100%;
+}
+.about_tape--item {
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 48px;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 430px) {
+  .about_tape--item {
+    gap: 0;
+    flex-wrap: wrap;
+  }
+}
+.about_tape--item.tape-wrap .tape--item img {
+  width: 400px;
+}
+@media screen and (max-width: 430px) {
+  .about_tape--item.tape-wrap .tape--item img {
+    width: 100%;
+  }
+}
+.about_tape--item.tape-wrap .tape--item .content {
+  margin-top: 28px;
+  width: 394px;
+}
+@media screen and (max-width: 430px) {
+  .about_tape--item.tape-wrap .tape--item .content {
+    width: 100%;
+  }
+}
+.about_tape--item.tape-wrap .tape--item .content .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  padding: 15px 0;
+  border-bottom: 1px solid #89887F;
+}
+.about_tape--item.tape-wrap .tape--item .content .des {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 150%;
+}
+@media screen and (max-width: 430px) {
+  .about_tape--item.tape-wrap .tape--item .content .des {
+    font-size: 16px;
+  }
+}
+.about_tape--item.tape-wrap .tape--item .content .des .des-bold {
+  font-weight: 500;
+  color: #009e9c;
+}
+.about_tape--item .image1 img {
+  width: 100%;
+}
+.about_tape--item .message {
+  font-size: 20px;
+  width: 394px;
+}
+@media screen and (max-width: 430px) {
+  .about_tape--item .message {
+    width: 100%;
+  }
+}
+
 .service {
   margin-top: 23px !important;
   margin-bottom: 31px !important;
@@ -1577,6 +1740,9 @@
   width: 400px;
   height: auto;
 }
+.products_detail.rika-mail .message {
+  max-width: 505px;
+}
 .products_detail.self-adhesive {
   width: 630px;
 }
@@ -1601,6 +1767,9 @@
 }
 .products_detail.self-adhesive .item-image .message {
   margin-top: 20px;
+}
+.products_detail.self-adhesive .item-image .message .des {
+  margin-top: 12px;
 }
 .products_detail.self-adhesive .message-image {
   display: flex;
@@ -1686,7 +1855,7 @@
   display: flex;
 }
 .products_detail__item .content .item .label {
-  min-width: 100px;
+  min-width: 85px;
 }
 .products_detail__item .content .item .message .message-item {
   display: flex;
@@ -1891,8 +2060,18 @@
 .doc__filter select {
   min-width: 300px;
   padding: 15px 17px;
-  border: 1px solid #000;
   width: 300px;
+  border: 1px solid #000;
+  outline: none;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background-image: url(../images/chevron-down.svg);
+  background-position: 95% 50%;
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+.doc__filter select:visited {
+  border: none;
 }
 @media screen and (max-width: 430px) {
   .doc__filter select {
@@ -1958,6 +2137,7 @@
 }
 @media screen and (max-width: 430px) {
   .privacy_policy {
+    margin-top: 30px !important;
     width: 100%;
     padding: 0 20px;
   }
@@ -1974,6 +2154,11 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
+@media screen and (max-width: 430px) {
+  .privacy_policy__content .text {
+    font-size: 16px;
+  }
+}
 .privacy_policy__content .title {
   font-weight: bold;
   padding: 14px 0;
@@ -1987,6 +2172,11 @@
 .privacy_policy__content .list {
   font-size: 18px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 430px) {
+  .privacy_policy__content .list {
+    font-size: 16px;
+  }
 }
 .privacy_policy__content .list .item {
   float: right;
@@ -2008,6 +2198,79 @@
   min-width: 190px;
   font-weight: 700;
 }
+.recruitment_benefits_detail {
+  width: 610px;
+  margin: 0 auto;
+  margin-top: 67px !important;
+}
+.recruitment_benefits_detail p {
+  margin: 0 !important;
+}
+@media screen and (max-width: 430px) {
+  .recruitment_benefits_detail.recruitment_benefits2 {
+    padding: 0;
+    width: 100%;
+  }
+}
+.recruitment_benefits_detail.recruitment_benefits2 .recruitment_benefits2__content {
+  width: 610px;
+}
+@media screen and (max-width: 430px) {
+  .recruitment_benefits_detail.recruitment_benefits2 .recruitment_benefits2__content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .recruitment_benefits_detail.recruitment_benefits2 .section-header {
+    padding: 0 20px;
+  }
+}
+.recruitment_benefits_detail.recruitment_benefits2 .section-header--title {
+  font-size: 24px;
+  padding: 0;
+}
+.recruitment_benefits_detail.recruitment_benefits2 .section-header--line {
+  width: 610px;
+}
+@media screen and (max-width: 430px) {
+  .recruitment_benefits_detail.recruitment_benefits2 .section-header--line {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .recruitment_benefits_detail {
+    width: 100%;
+    margin-top: 30px !important;
+    padding: 0 20px;
+  }
+}
+.recruitment_benefits_detail__content .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding: 15px 0;
+  border-bottom: 1px solid #89887F;
+}
+.recruitment_benefits_detail__content .text {
+  font-size: 20px;
+  padding-left: 110px;
+  margin-bottom: 40px;
+  line-height: 150%;
+}
+@media screen and (max-width: 430px) {
+  .recruitment_benefits_detail__content .text {
+    font-size: 16px;
+    padding-left: 0;
+  }
+}
+.recruitment_benefits_detail__content .image {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.recruitment_benefits_detail__content .image img {
+  width: 100%;
+}
+
 .faq {
   padding: 100px 230px;
 }
@@ -2263,8 +2526,82 @@ header {
   background: #009E9C;
 }
 
+.banner-about {
+  height: 322px;
+}
+
 .banner-no-bg {
   margin-top: 80px;
+}
+@media screen and (max-width: 430px) {
+  .banner-no-bg {
+    margin-top: 40px;
+  }
+}
+
+.banner-benefits {
+  height: 480px;
+  position: relative;
+}
+.banner-benefits.banner-benefits-pc {
+  display: block;
+}
+@media screen and (max-width: 430px) {
+  .banner-benefits.banner-benefits-pc {
+    display: none;
+  }
+}
+.banner-benefits.banner-benefits-sp {
+  display: none;
+}
+@media screen and (max-width: 430px) {
+  .banner-benefits.banner-benefits-sp {
+    display: block;
+  }
+}
+@media screen and (max-width: 430px) {
+  .banner-benefits {
+    height: 540px;
+    background-position: 50% 0;
+  }
+}
+.banner-benefits .section-header {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 20px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0));
+}
+.banner-benefits .section-header .section-header-wrap {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+}
+.banner-benefits .section-header--title {
+  color: #ffffff;
+  text-align: left;
+}
+.banner-benefits .section-header--sub-title {
+  color: #ffffff;
+  text-align: left;
+}
+.banner-benefits .section-header--title-last {
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 9px;
+}
+.banner-benefits .section-header--line {
+  width: 100%;
+}
+.banner-benefits .section-header--line .line {
+  width: 100%;
+  background: #ffffff;
+}
+.banner-benefits .section-header--line .line-center {
+  width: 103px;
+  background: #009E9C;
 }
 
 .nichi-btn, .nichi-btn-bg {

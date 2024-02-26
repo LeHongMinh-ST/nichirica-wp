@@ -36,7 +36,11 @@ get_header();
     <div class="section-content about_environmental_policy__content">
       <div class="about_environmental_policy__item">
         <div class="header">
-          <span class="header-text">基本理念</span>
+          <div class="header-text">基本理念</div>
+          <div class="header-line">
+            <div class="line line-center"></div>
+            <div class="line"></div>
+          </div>
         </div>
         <div class="content">
           NichiRicaは経営理念「誠実・社会貢献・開拓者精神」を原点とし、地球規模の環境保全を実現するために、「事業活動と環境との調和」を重要課題として、全従業員の参加による環境保全活動に努める。
@@ -44,7 +48,11 @@ get_header();
       </div>
       <div class="about_environmental_policy__item">
         <div class="header">
-          <span class="header-text">基本方針</span>
+          <div class="header-text">基本方針</div>
+          <div class="header-line">
+            <div class="line line-center"></div>
+            <div class="line"></div>
+          </div>
         </div>
         <div class="content">
           NichiRicaは以下の方針に基づき、研究・開発・製造・販売における活動、製品及びサービスの提供と環境との調和を目指す。
@@ -86,7 +94,11 @@ get_header();
       </div>
       <div class="about_environmental_policy__item">
         <div class="header">
-          <span class="header-text">環境行動</span>
+          <div class="header-text">環境行動</div>
+          <div class="header-line">
+            <div class="line line-center"></div>
+            <div class="line"></div>
+          </div>
         </div>
         <div class="content">
           <div class="sub-header">
@@ -101,14 +113,18 @@ get_header();
             環境負荷物質削減
           </div>
           <ul>
-            <li>エコ設備の導入</li>
-            <li>電力デマンド管理</li>
+            <li>環境に配慮した製品の設計開発</li>
+            <li>製品含有化学物質の管理</li>
           </ul>
         </div>
       </div>
       <div class="about_environmental_policy__item">
         <div class="header">
-          <span class="header-text">資源分別</span>
+          <div class="header-text">資源分別</div>
+          <div class="header-line">
+            <div class="line line-center"></div>
+            <div class="line"></div>
+          </div>
         </div>
         <div class="content">
           廃棄物から再資源・循環資源を分別し、リサイクルに貢献する。
@@ -117,9 +133,26 @@ get_header();
       <div class="about_environmental_policy__item">
         <div class="header">
           <div class="header-text">SDGsへの取り組み</div>
+          <div class="header-line">
+            <div class="line line-center"></div>
+            <div class="line"></div>
+          </div>
         </div>
         <div class="content">
+
           エコアクション21の活動を通して、環境への負荷を軽減する取り組みを行い、持続可能な社会の実現を目指す。
+        </div>
+      </div>
+      <div class="about_environmental_policy__item">
+        <div class="header">
+          <div class="header-text">環境経営レポート</div>
+          <div class="header-line">
+            <div class="line line-center"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="content">
+          環境経営レポートは <a href="https://ea21.jp/list/pdfn/0002868.pdf">こちら</a> からご確認ください。
         </div>
       </div>
     </div>

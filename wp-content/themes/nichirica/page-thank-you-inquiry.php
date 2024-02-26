@@ -30,7 +30,7 @@ get_template_part('template-parts/banners/banner-no-image');
     </div>
     <div class="section-footer">
       <div class="item-button">
-        <a href="<?= get_permalink(get_page_by_path('inquiry')) ?>" class="">
+        <a href="<?= get_home_url() ?>" class="">
           <span class="text">トップページへ戻る</span>
           <img class="arrow" src="<?= THEME_URI?>/assets/images/arrow-right.svg" alt="arrow">
         </a>

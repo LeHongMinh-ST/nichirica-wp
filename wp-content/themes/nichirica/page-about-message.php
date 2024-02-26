@@ -32,7 +32,7 @@ get_header();
         </div>
         <div class="content">
           <div class="message">
-            「自然環境と共生するイノベーション  <br>　- NichiRicaの未来への約束」
+            「自然環境と共生するイノベーション <br>　- NichiRicaの未来への約束」
             <br>
             <br>
             <br>
@@ -40,7 +40,7 @@ get_header();
             <br>
             <br>
             <br>
-            また、長年にわたる塗工・加工技術の研鑽を通じて、クリーンコーティングマシン及び関連加工設備の導入を実現しました。これにより、クリーン環境下での光学粘着製品加工や電子材料向け粘着加工などの製造受託業務においても顕著な成果を上げています
+            また、長年にわたる塗工・加工技術の研鑽を通じて、クリーンコーティングマシン及び関連加工設備の導入を実現しました。これにより、クリーン環境下での光学粘着製品加工や電子材料向け粘着加工などの製造受託業務においても顕著な成果を上げています。
             <br>
             <br>
             <br>
@@ -70,7 +70,7 @@ get_header();
             <img src="<?= THEME_URI ?>/assets/images/president1.png" alt="president1" class="about_message__image">
           </div>
           <div class="message">
-            「自然環境と共生するイノベーション  <br>　- NichiRicaの未来への約束」
+            「自然環境と共生するイノベーション <br>　- NichiRicaの未来への約束」
             <br>
             <br>
             <br>

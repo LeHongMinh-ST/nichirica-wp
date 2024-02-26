@@ -7,7 +7,7 @@ $themePrefix = 'nichirica';
 
 $themeUri = get_template_directory_uri() . '/assets';
 
-$themeVersion = '1.0.8';
+$themeVersion = '1.0.9';
 
 if ( ! defined( 'THEME_URI' ) ) {
   // Replace the version number of the theme on each release.

@@ -5,25 +5,25 @@ $current_page_slug = $current_page->post_name;
 ?>
 <div class="recruitment recruitment-page size">
   <div class="section-content recruitment--list">
-    <?php if ($current_page_slug != 'recruitment-new-graduates') { ?>
+    <?php if ($current_page_slug != 'new-graduates') { ?>
       <div class="recruitment--item" style="background-image: url(<?= THEME_URI ?>/assets/images/rq1.png)">
-        <a href="<?= get_permalink(get_page_by_path('recruitment-new-graduates')) ?>">
+        <a href="<?= get_permalink(get_page_by_path('recruitment/new-graduates')) ?>">
           新卒
         </a>
       </div>
     <?php } ?>
-    <?php if ($current_page_slug != 'recruitment-mid-term') { ?>
+    <?php if ($current_page_slug != 'mid-term') { ?>
 
       <div class="recruitment--item" style="background-image: url(<?= THEME_URI ?>/assets/images/rq2.png)">
-        <a href="<?= get_permalink(get_page_by_path('recruitment-mid-term')) ?>">
+        <a href="<?= get_permalink(get_page_by_path('recruitment/mid-term')) ?>">
           中途
         </a>
       </div>
     <?php } ?>
-    <?php if ($current_page_slug != 'requirement-part-time') { ?>
+    <?php if ($current_page_slug != 'part-time') { ?>
 
       <div class="recruitment--item" style="background-image: url(<?= THEME_URI ?>/assets/images/rq3.png)">
-        <a href="<?= get_permalink(get_page_by_path('requirement-part-time')) ?>">
+        <a href="<?= get_permalink(get_page_by_path('recruitment/part-time')) ?>">
           パート
         </a>
       </div>

@@ -7,7 +7,7 @@ get_header();
 ?>
 
 <?php get_template_part('template-parts/header/header-recruitment') ?>
-<?php get_template_part('template-parts/banners/banner3')?>
+<?php get_template_part('template-parts/banners/banner5')?>
 
   <div class="breadcrumb-area size">
     <nav>
@@ -69,7 +69,7 @@ get_header();
 
   <div class="recruitment_benefits2 size">
     <div class="section-header">
-      <div class="section-header--title">福利厚生</div>
+      <div class="section-header--title">社員インタビュー</div>
       <div class="section-header--line">
         <div class="line"></div>
         <div class="line line-center"></div>
@@ -80,14 +80,14 @@ get_header();
       <div class="recruitment_benefits2__item" style="background-image: url(<?= THEME_URI?>/assets/images/welfare1.png)">
         <div class="item-content">
           <div class="item-header">
-            <div class="title">テキスト</div>
+            <div class="title">Sさん</div>
             <div class="line">
               <div class="line-left"></div>
               <div class="line-right"></div>
             </div>
           </div>
           <div class="item-btn">
-            <a href="" class="nichi-btn">
+            <a href="<?= get_permalink(get_page_by_path('recruitment/benefits/niima')) ?>" class="nichi-btn">
               詳しく見る
             </a>
           </div>
@@ -96,14 +96,14 @@ get_header();
       <div class="recruitment_benefits2__item" style="background-image: url(<?= THEME_URI?>/assets/images/welfare2.png)">
         <div class="item-content">
           <div class="item-header">
-            <div class="title">テキスト</div>
+            <div class="title">Mさん</div>
             <div class="line">
               <div class="line-left"></div>
               <div class="line-right"></div>
             </div>
           </div>
           <div class="item-btn">
-            <a href="" class="nichi-btn">
+            <a href="<?= get_permalink(get_page_by_path('recruitment/benefits/miyoshi')) ?>" class="nichi-btn">
               詳しく見る
             </a>
           </div>

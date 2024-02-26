@@ -38,7 +38,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr1.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-tape')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/tape')) ?>" class="">
             <span class="text">水付けガムテープ </span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -49,7 +49,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr2.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-tape')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/tape')) ?>#double-sided" class="">
             <span class="text">両面粘着テープ関連製品</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -73,7 +73,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr3.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-paper')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/paper')) ?>" class="">
             <span class="text">圧着はがき用紙関連製品</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -97,7 +97,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr4.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-label')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/label')) ?>" class="">
             <span class="text">ラベル</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -108,7 +108,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr5.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-self-adhesive')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/self-adhesive')) ?>" class="">
             <span class="text">自着機能資材</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -132,7 +132,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr6.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-machine')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>#double-sided" class="">
             <span class="text">両面粘着テープ自動貼付機</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -143,7 +143,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr7.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-machine')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>#sealing" class="">
             <span class="text">自動封緘機</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -154,7 +154,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr8.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-machine')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>#duct-tape-dispenser" class="">
             <span class="text">ガムテープディスペンサー</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
@@ -179,7 +179,7 @@ get_header();
         </div>
         <div class="item-button">
           <a href="<?= get_permalink(get_page_by_path('product-contract-coating')) ?>" class="">
-            <span class="text">自着機能資材</span>
+            <span class="text">受託塗工</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
         </div>

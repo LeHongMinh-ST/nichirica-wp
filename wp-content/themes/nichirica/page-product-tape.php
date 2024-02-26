@@ -56,7 +56,7 @@ get_header();
               <ul>
                 <li>水を付けることで接着性が出るテープ。</li>
                 <li>
-                  紙、糊共に天然素材で自然環境に優しい構成 （紙：クラフト紙、晒クラフト紙、糊：澱粉糊）。
+                  紙、糊共に天然素材で自然環境に優しい構成 <br>（紙：クラフト紙、晒クラフト紙、糊：澱粉糊）。
                 </li>
                 <li>
                   澱粉糊は、日本古来使用されており、経年劣化しないことが認められている。
@@ -107,7 +107,7 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="products_detail__item">
+      <div class="products_detail__item" >
         <div class="header">
           <div class="header-title">
             糸入りガムテープ
@@ -170,6 +170,7 @@ get_header();
 
       </div>
     </div>
+    <div id="double-sided"></div>
   </div>
   <div class="products_detail size tape">
     <div class="section-header">
@@ -183,7 +184,7 @@ get_header();
             フートーテープ
           </div>
           <div class="header-image">
-            <img src="<?= THEME_URI ?>/assets/images/tape6.png " alt="product">
+            <img src="<?= THEME_URI ?>/assets/images/tape5.png " alt="product">
           </div>
         </div>
         <div class="content">
@@ -201,7 +202,7 @@ get_header();
               <ul>
                 <li>従来の封筒口糊に変わる特殊両面粘着テープ。</li>
                 <li>
-                  従来の封筒口糊に変わる特殊両面粘着テープ
+                  テープ両サイドにドライエッジ部分を設けています。
                 </li>
                 <li>
                   各種封筒サイズに応じ、規格を設けています。

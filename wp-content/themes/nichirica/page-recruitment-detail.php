@@ -8,7 +8,7 @@ get_header();
 
 <?php get_template_part('template-parts/header/header-recruitment') ?>
 
-<?php get_template_part('template-parts/banners/banner3')?>
+<?php get_template_part('template-parts/banners/banner7')?>
 
   <div class="breadcrumb-area size">
     <nav>
@@ -50,7 +50,7 @@ get_header();
   </div>
   <div class="banner size banner-footer" style="background-image: url(<?= THEME_URI ?>/assets/images/header7.png);">
     <div class="section-header">
-      <div class="section-header--title">募集要項（新卒）</div>
+      <div class="section-header--title">社員インタビュー</div>
       <div class="section-header--line">
         <div class="line"></div>
         <div class="line line-center"></div>
@@ -58,14 +58,14 @@ get_header();
       </div>
 
       <div class="section-header--btn">
-        <a href="" class="nichi-btn">社員インタビュー</a>
+        <a href="<?= get_permalink(get_page_by_path('recruitment/benefits')) ?>" class="nichi-btn">詳しく見る</a>
       </div>
     </div>
   </div>
 
   <div class="recruitment_footer size">
     <div class="welfare item">
-      <a href="<?= get_permalink(get_page_by_path('recruitment-benefits')) ?>">
+      <a href="<?= get_permalink(get_page_by_path('recruitment/benefits')) ?>">
         <div class="circle">
           <img src="<?= THEME_URI ?>/assets/images/welfare-icon.png" alt="welfare">
         </div>

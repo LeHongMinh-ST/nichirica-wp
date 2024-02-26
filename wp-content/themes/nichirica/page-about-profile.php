@@ -76,11 +76,15 @@ get_header();
       </div>
       <div class="item">
         <div class="label">取引先金融機関</div>
-        <div class="text-wrapper">＜テキストが入ります＞</div>
+        <div class="text-wrapper">
+          三井住友銀行<br>静岡銀行<br>みずほ銀行
+        </div>
       </div>
       <div class="item">
-        <div class="label">取引先企業</div>
-        <div class="text-wrapper">＜テキストが入ります＞</div>
+        <div class="label">主要取引先企業</div>
+        <div class="text-wrapper">
+          株式会社巴川コーポレーション<br>パックウェル株式会社<br>キヤノンマーケティングジャパン株式会社<br>ハート封筒株式会社<br>株式会社イムラ<br>日本紙パルプ商事株式会社<br>オー・ジー株式会社<br>三木特殊製紙株式会社<br>日本東海インダストリアルペーパーサプライ株式会社<br>マルウ接着株式会社
+        </div>
       </div>
     </div>
   </div>
@@ -255,11 +259,11 @@ get_header();
       </div>
     </div>
     <div class="section-content about_profile__content list_of_officers">
-      <table class="table table-bordered">
+      <table class="table">
         <thead>
         <tr>
-          <th>役&nbsp;&nbsp;職</th>
-          <th>氏&nbsp;&nbsp名</th>
+          <th class="position">役&nbsp;&nbsp;職</th>
+          <th class="value">氏&nbsp;&nbsp名</th>
         </tr>
         </thead>
         <tbody>
@@ -281,7 +285,7 @@ get_header();
         </tr>
         <tr>
           <td>取締役</td>
-          <td>中本　亘	</td>
+          <td>中本　亘</td>
         </tr>
         <tr>
           <td>取締役</td>
