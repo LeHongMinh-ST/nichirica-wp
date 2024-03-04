@@ -53,46 +53,19 @@ get_header();
             <div class="label">特徴:</div>
             <div class="message">
               <ul>
-                <li>	印刷適正に優れた圧着はがき用紙で、剥がした後は再接着出来ません。</li>
                 <li>
-                  封書送りの情報をはがきの料金で、郵便料金のコストダウンができます。              </li>
+                  特寸・少量・短納期に対応可能
+                </li>
                 <li>
-                  汎用小型レーザープリンタで印字ができ、圧着することでデータの秘密を              </li>
+                  印刷適性に優れた圧着はがき用紙で、剥がした後の再接着は不可能
+                </li>
                 <li>
-                  保持することができます。              </li>
-                <li>
-                  汎用シーラーで使用可能です              </li>
+                  封書送りの情報をはがきの料金で、郵便料金のコストダウン可能
+                </li>
+                <li>汎用小型レーザープリンタで印字ができ、圧着することでデータの秘密を保持</li>
+                <li>汎用シーラで使用可能</li>
               </ul>
 
-            </div>
-          </div>
-          <div class="item">
-            <div class="label">代表規格:</div>
-            <div class="message">
-              <div class="message-item">
-                <div class="left">３つ折り</div>
-                <div class="right">３０７７Ｄ ・・ 上質紙ベース</div>
-              </div>
-              <div class="message-item">
-                <div class="left">４面タイプ</div>
-                <div class="right">
-                  ３０７７ＳＣ ・・ カット紙適正向上品 <br> ３０７７耐水 ・・ 耐水機能を持った用紙
-                </div>
-              </div>
-
-              <div class="message-item">
-                <div class="left">２つ折り</div>
-                <div class="right">
-                  ２１１０、２１２５ ・・・ 共に上質紙ベース
-                </div>
-              </div>
-              <div class="message-item">
-                <div class="left">６面タイプ</div>
-                <div class="right">
-                  ６１００ ・・・ 上質紙ベース <br>
-                  ６１００耐水 ・・・ 耐水機能を持った用紙
-                </div>
-              </div>
             </div>
           </div>
         </div>

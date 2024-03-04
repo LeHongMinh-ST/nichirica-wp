@@ -6,7 +6,6 @@ Template Name: About Environmental Policy
 get_header();
 ?>
 <?php get_template_part('template-parts/header/header-about') ?>
-<?php get_template_part('template-parts/banners/banner1') ?>
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">
@@ -14,7 +13,7 @@ get_header();
           <a href="<?= get_home_url() ?>">Top</a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('about')) ?>">社長挨拶</a>
+          <a href="<?= get_permalink(get_page_by_path('about')) ?>">企業情報</a>
         </li>
         <li>
         <span class="active">

@@ -1,0 +1,54 @@
+.recruitment {
+  margin: 0 auto;
+  margin-bottom: 84px !important;
+  @include sp {
+    margin-bottom: 0!important;
+  }
+  &.recruitment-page {
+    .recruitment--list {
+      margin-top: 41px;
+    }
+  }
+
+  &--list {
+    width: 100%;
+    justify-content: center;
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    @include sp {
+      gap: 0;
+    }
+  }
+
+  &--item {
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    @include sp {
+      width: 100%;
+      height: 300px;
+    }
+    a {
+      right: 0;
+      bottom: 22px;
+      display: inline-block;
+      background: #009E9C;
+      position: absolute;
+      color: #FFF;
+      text-align: center;
+      font-family: Inter, sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 14px 76px;
+      text-decoration: none;
+    }
+  }
+}

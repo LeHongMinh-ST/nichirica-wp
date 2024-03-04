@@ -6,13 +6,13 @@ Template Name: Service
 get_header();
 ?>
 
-<?php get_template_part('template-parts/banners/banner2')?>
+<?php get_template_part('template-parts/banners/banner2') ?>
 
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">
         <li>
-          <a href="<?= get_home_url()?>">Top</a>
+          <a href="<?= get_home_url() ?>">Top</a>
         </li>
         <li>
         <span class="active">
@@ -24,24 +24,20 @@ get_header();
   </div>
 
   <div class="service size">
-    <div class="section-header">
-      <div class="section-header--title">受託塗工</div>
-      <div class="section-header--line">
-        <div class="line"></div>
-        <div class="line line-center"></div>
-        <div class="line"></div>
-      </div>
-    </div>
     <div class="section-content service--list">
       <div class="service--item">
         <div class="item-image">
-          <img src="<?= THEME_URI ?>/assets/images/service1.png" alt="service">
+          <div class="section-header">
+            <div class="section-header--title">技術と伝統の融合 - テープを通じたNichiRicaの使命と社会貢献</div>
+            <div class="section-header--line">
+              <div class="line line-center"></div>
+              <div class="line"></div>
+            </div>
+          </div>
         </div>
         <div class="item-description">
-          当社は各種塗料の自社内調合を可能とするため、複数の重合釜、混合釜、分散機を保有しています。<br><br>
-          これら保有設備により、当社主要製品の『ガムテープ糊』、『自着糊』、『圧着はがき糊』、『各種粘着剤』の社内調合を実現しています。<br><br>
-          更に顧客様の『こんな糊を作りたい。』のご要望に対して、設計、テスト調合、性能確認まで様々なご協力にお応えします。<br><br>
-        </div>
+          １９５０年代国内の急速なダンボール普及あるいは、建設需要を受ける形で製造を開始した当社主力製品のガムテープは開発当初からワンストップ生産を目指し研究・開発を進めて参りました。中興の研究・開発精神は現在も脈々と受け継がれ、現在も当社は原材料から顧客様の要望される製品仕様までの一貫生産を念頭に社会に提供することで、事業価値の最大化を実現、ステークホルダーすべてを豊かにする企業を目指しています。
+         </div>
       </div>
     </div>
   </div>
@@ -49,7 +45,6 @@ get_header();
     <div class="section-header">
       <div class="section-header--title">水糊・自着糊等の技術</div>
       <div class="section-header--line">
-        <div class="line"></div>
         <div class="line line-center"></div>
         <div class="line"></div>
       </div>
@@ -81,9 +76,8 @@ get_header();
 
   <div class="service size">
     <div class="section-header">
-      <div class="section-header--title">作業工程</div>
+      <div class="section-header--title">各工程におけるNichiRicaの技術</div>
       <div class="section-header--line">
-        <div class="line"></div>
         <div class="line line-center"></div>
         <div class="line"></div>
       </div>
@@ -99,12 +93,9 @@ get_header();
             <img src="<?= THEME_URI ?>/assets/images/en1.png" alt="en">
           </div>
           <div class="engineering-description">
-            <div class="engineering-description-title">調合</div>
+            <div class="engineering-description-title">接着剤調合技術</div>
             <div class="engineering-description-text">
-              当社は、天然ゴム同士の相溶効果による界面消失性能に着目し５０余年『自着テープ』を製造販売して参りました。<br><br>
-              最近では紙媒体は勿論なこと、合成紙、フィルム媒体への塗膜成形技術も確立して参りました。<br><br>
-              強固な自着性能だけに留まらず、当社所有調合技術を活用した自着力の調整、追加性能の付与も実現可能です。<br><br>
-              『しっかりくっ付けたいが、糊残りは困る』ようなご要望がございましたら、お気軽にご相談下さい。<br><br>
+              当社は各種塗料の自社内調合を可能とするため、複数の重合釜、混合釜、分散機を保有しています。これら保有設備により、当社主要製品の『ガムテープ糊』、『自着糊』、『圧着はがき糊』、『各種粘着剤』の社内調合を実現しています。更に顧客様の『こんな糊を作りたい。』のご要望に対して、設計、テスト調合、性能確認まで様々なご協力にお応えします。
             </div>
           </div>
         </div>
@@ -119,12 +110,9 @@ get_header();
             <img src="<?= THEME_URI ?>/assets/images/en2.png" alt="en">
           </div>
           <div class="engineering-description">
-            <div class="engineering-description-title">塗工</div>
+            <div class="engineering-description-title">塗工技術</div>
             <div class="engineering-description-text">
-              当社は、天然ゴム同士の相溶効果による界面消失性能に着目し５０余年『自着テープ』を製造販売して参りました。<br><br>
-              最近では紙媒体は勿論なこと、合成紙、フィルム媒体への塗膜成形技術も確立して参りました。<br><br>
-              強固な自着性能だけに留まらず、当社所有調合技術を活用した自着力の調整、追加性能の付与も実現可能です。<br><br>
-              『しっかりくっ付けたいが、糊残りは困る』ようなご要望がございましたら、お気軽にご相談下さい。<br><br>
+              当社は２台の塗工機を保有し、水系・溶剤系の各種塗料の最適なコーティングを提供しています。各塗工機は複数のコーティング方式を有し、薄膜～厚膜塗工まで自在な塗布量コントロールが可能で、顧客様のニーズにお応えし様々な特性の塗料を好適な塗布量で塗布、ご提供することが可能です。
             </div>
           </div>
         </div>
@@ -140,12 +128,9 @@ get_header();
             <img src="<?= THEME_URI ?>/assets/images/en3.png" alt="en">
           </div>
           <div class="engineering-description">
-            <div class="engineering-description-title">加工</div>
+            <div class="engineering-description-title">加工技術</div>
             <div class="engineering-description-text">
-              当社は、天然ゴム同士の相溶効果による界面消失性能に着目し５０余年『自着テープ』を製造販売して参りました。<br><br>
-              最近では紙媒体は勿論なこと、合成紙、フィルム媒体への塗膜成形技術も確立して参りました。<br><br>
-              強固な自着性能だけに留まらず、当社所有調合技術を活用した自着力の調整、追加性能の付与も実現可能です。<br><br>
-              『しっかりくっ付けたいが、糊残りは困る』ようなご要望がございましたら、お気軽にご相談下さい。<br><br>
+              当社は保有する多種多様の加工機で顧客様ご希望の製品形態への加工をご提供します。テープスリット加工は勿論のこと、長尺印刷紙原反加工、印刷による加飾、ラベル打抜き加工、特殊穴開け加工、押し切りスリット加工、平判シート加工など様々なご要望にお応えします。
             </div>
           </div>
         </div>
@@ -161,12 +146,9 @@ get_header();
             <img src="<?= THEME_URI ?>/assets/images/en4.png" alt="en">
           </div>
           <div class="engineering-description">
-            <div class="engineering-description-title">包装・出荷 </div>
+            <div class="engineering-description-title">包装・出荷</div>
             <div class="engineering-description-text">
-              当社は、天然ゴム同士の相溶効果による界面消失性能に着目し５０余年『自着テープ』を製造販売して参りました。<br><br>
-              最近では紙媒体は勿論なこと、合成紙、フィルム媒体への塗膜成形技術も確立して参りました。<br><br>
-              強固な自着性能だけに留まらず、当社所有調合技術を活用した自着力の調整、追加性能の付与も実現可能です。<br><br>
-              『しっかりくっ付けたいが、糊残りは困る』ようなご要望がございましたら、お気軽にご相談下さい。<br><br>
+              当社では顧客様に安心・安全に当社製品をご使用いただくべく、各種製品の形態に併せ封緘・包装して製品を出荷いたします。自動封緘、オートパレタイズによる自動封緘でのケーシング、自動封緘不可能な大きな製品では製品一つ一つを作業員が包装する半自動封緘など、製品仕様に併せた封緘を行い、安心・安全な製品輸送を実現しています。
             </div>
           </div>
         </div>

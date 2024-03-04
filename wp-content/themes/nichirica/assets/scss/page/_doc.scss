@@ -1,0 +1,43 @@
+.doc {
+  &__filter {
+    margin-top: 23px;
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    //.select-wrap {
+    //  position: relative;
+    //  width: 310px;
+    //  border: 1px solid #000;
+    //  @include sp {
+    //    width: 100%;
+    //  }
+    //
+    //}
+
+    select {
+      min-width: 300px;
+      padding: 15px 17px;
+      width: 300px;
+      border: 1px solid #000;
+      outline: none;
+      &:visited{
+        border: none;
+      }
+
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      background-image: url(../images/chevron-down.svg);
+      background-position: 95% 50%;
+      background-repeat: no-repeat;
+      border-radius: 0;
+
+      @include sp {
+        width: 100%;
+        min-width: 100%;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.about_profile {
+  margin-top: 70px !important;
+  margin-bottom: 120px !important;
+
+  &__content {
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 33px !important;
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .item {
+      display: flex;
+      align-items: start;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid #000;
+      @include sp {
+        flex-wrap: wrap;
+      }
+
+      .label {
+        min-width: 295px;
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 36px */
+        @include sp {
+          font-size: 16px;
+        }
+      }
+
+      .text-wrapper {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+        min-width: calc(100% - 295px - 20px);
+        @include sp {
+          font-size: 16px;
+          min-width: 100%;
+        }
+      }
+    }
+
+    &.history {
+      .item {
+        justify-content: center;
+        border: none;
+        @include sp {
+          justify-content: left;
+        }
+
+        .label {
+          text-align: right;
+          @include sp {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  .about_profile_diagram {
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .diagram_mb {
+      display: none;
+      @include sp {
+        display: block;
+      }
+    }
+
+    .diagram_pc {
+      display: block;
+      @include sp {
+        display: none;
+      }
+    }
+  }
+}
+
+.about_profile_list_of_officers {
+  @include sp {
+    display: none;
+  }
+
+  table {
+    width: 819px;
+    margin: 0 auto;
+
+    th {
+      text-align: left;
+      color: #009d9b;
+      font-size: 20px;
+      padding: 17px 0 23px 0 !important;
+      &.position {
+        width: 187px
+      }
+
+      &.position {
+
+      }
+    }
+
+    td {
+      text-align: left;
+      padding: 17px 0 23px 0 !important;
+      font-size: 20px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #000;
+    }
+    thead tr {
+        border-bottom: 1px solid #009d9b;
+    }
+  }
+}

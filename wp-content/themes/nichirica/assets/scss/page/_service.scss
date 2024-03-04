@@ -1,0 +1,230 @@
+.service {
+  margin-top: 23px !important;
+  margin-bottom: 31px !important;
+
+  .section-header {
+    &--title {
+      text-align: left;
+      padding: 0 20px;
+
+      @include sp {
+        font-size: 24px;
+        text-align: left;
+      }
+    }
+
+    &--line {
+      max-width: 1240px;
+      width: 100%;
+      @include sp {
+        width: 100%;
+        padding: 0 20px;
+      }
+      .line {
+        width: calc(100% - 103px);
+        @include sp {
+
+        }
+      }
+      .line-center {
+        width: 103px;
+        @include sp {
+          background: #009e9c
+        }
+      }
+    }
+  }
+
+  &--list {
+    width: 1240px;
+    margin: 80px auto 80px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+      margin: 20px auto;
+    }
+  }
+
+  &--item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 125px;
+
+    @include sp {
+      gap: 23px;
+      flex-direction: column;
+    }
+
+    .item-image {
+      width: 100%;
+      max-width: 610px;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .section-header--line {
+        max-width: 610px;
+        width: 610px;
+        @include sp {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      .section-header--title {
+        padding: 0;
+      }
+    }
+
+    .item-description {
+      max-width: 400px;
+      font-size: 16px;
+    }
+
+  }
+
+  .engineering-list {
+    width: 1240px;
+    margin: 112px auto 71px;
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .engineering-item {
+      height: max-content;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+
+      .engineering-colum {
+        width: 50px;
+        min-width: 50px;
+        height: auto;
+        position: relative;
+
+        .triangle {
+          position: absolute;
+          top: -1px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 0;
+          height: 0;
+          border-left: 25px solid transparent;
+          border-right: 25px solid transparent;
+        }
+
+        .column-number {
+          position: absolute;
+          top: 37px;
+          left: 50%;
+          transform: translateX(-50%);
+          color: #fff;
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+
+      .engineering-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px 0;
+        @include sp {
+          padding: 0;
+        }
+
+        .engineering-image {
+          width: 100%;
+          max-width: 400px;
+
+          img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+
+        .engineering-description {
+          max-width: 400px;
+          font-size: 16px;
+
+          .engineering-description-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+          }
+        }
+      }
+
+      &:nth-child(1) {
+        .engineering-content {
+          padding-top: 0;
+        }
+        .engineering-colum {
+          background: #009e9c;
+          .triangle {
+            border-top: 25px solid #009e9c;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .engineering-colum {
+          background: #89887f;
+          .triangle {
+            border-top: 25px solid #009e9c;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .engineering-colum {
+          background: #5b5b5b;
+          .triangle {
+            border-top: 25px solid #89887f;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        .engineering-content {
+          padding-bottom: 0;
+        }
+        .engineering-colum {
+          .triangle {
+            border-top: 25px solid #5b5b5b;
+          }
+          background: #009e9c;
+          border-bottom-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+        }
+      }
+
+    }
+  }
+
+  .section-footer {
+    .nichi-btn {
+      display: inline-block;
+      padding: 14px 10px;
+      position: relative;
+      width: 295px;
+
+      .arrow {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

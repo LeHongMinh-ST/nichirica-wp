@@ -6,7 +6,7 @@ Template Name: Recruitment
 get_header();
 ?>
 
-<?php get_template_part('template-parts/banners/banner3')?>
+<?php get_template_part('template-parts/banners/banner5')?>
 
   <div class="breadcrumb-area size">
     <nav>

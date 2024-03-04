@@ -8,9 +8,9 @@
  *
  * @package Nichirica
  */
-$current_page_id = get_the_ID();
-$current_page = get_post($current_page_id);
-$current_page_slug = !empty($current_page->post_name) ? $current_page->post_name : ''
+//$current_page_id = get_the_ID();
+//$current_page = get_post($current_page_id);
+//$current_page_slug = !empty($current_page->post_name) ? $current_page->post_name : ''
 
 ?>
 <!doctype html>
@@ -19,7 +19,7 @@ $current_page_slug = !empty($current_page->post_name) ? $current_page->post_name
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+  <link rel="icon" type="image/x-icon" href="<?= THEME_URI ?>/assets/images/favicon.png">
 	<?php wp_head(); ?>
 </head>
 
@@ -41,9 +41,9 @@ $current_page_slug = !empty($current_page->post_name) ? $current_page->post_name
       ])
       ?>
       <ul class="list-locale">
-        <li class="item-locale"><a href="/<?=$current_page_slug?>">JA</a></li>
+        <li class="item-locale"><a href="/<?=get_home_url()?>">JA</a></li>
         <li class="item-locale">/</li>
-        <li class="item-locale"><a href="/en/<?=$current_page_slug?>">EN</a></li>
+        <li class="item-locale"><a href="/en/<?=get_home_url()?>">EN</a></li>
       </ul>
     </div>
 
@@ -70,9 +70,9 @@ $current_page_slug = !empty($current_page->post_name) ? $current_page->post_name
     ])
     ?>
     <ul class="list-locale">
-      <li class="item-locale"><a href="/<?=$current_page_slug?>">JA</a></li>
+      <li class="item-locale"><a href="/<?=get_home_url()?>">JA</a></li>
       <li class="item-locale">/</li>
-      <li class="item-locale"><a href="/en/<?=$current_page_slug?>">EN</a></li>
+      <li class="item-locale"><a href="/en/<?=get_home_url()?>">EN</a></li>
     </ul>
   </div>
 </header>

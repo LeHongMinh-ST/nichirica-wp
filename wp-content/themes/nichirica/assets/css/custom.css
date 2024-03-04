@@ -1,3 +1,14 @@
 .menu .current-page-ancestor > a {
   color: #009E9C!important;
 }
+
+#double-sided,
+#product-tape,
+#product-paper,
+#product-label,
+#product-self-adhesive,
+#product-machine,
+#product-contract-coating,
+#sealing {
+  scroll-margin-top: calc(50px + 2.5em);
+}

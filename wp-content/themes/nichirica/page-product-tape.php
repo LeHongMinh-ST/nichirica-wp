@@ -35,7 +35,7 @@ get_header();
       <div class="products_detail__item">
         <div class="header">
           <div class="header-title">
-            手動式ディスペンサー
+            ガムテープ
           </div>
           <div class="header-image">
             <img src="<?= THEME_URI ?>/assets/images/tape1.png " alt="product">
@@ -211,10 +211,6 @@ get_header();
 
             </div>
           </div>
-          <div class="item">
-            <div class="label">代表規格:</div>
-            <div class="message">基材レス、ドライエッジ</div>
-          </div>
         </div>
 
       </div>
@@ -241,17 +237,10 @@ get_header();
             <div class="label">特徴:</div>
             <div class="message">
               <ul>
-                <li>フリーテープＬＴ ・・・ 無色透明の糊で支持体がありません。</li>
-                <li>
-                  フリーテープＹ ・・・ 支持体があり、中粘着タイプです。
-                </li>
+                <li>中間支持体が無い両面粘着タイプから、支持体が有る中～強粘着タイプ</li>
               </ul>
 
             </div>
-          </div>
-          <div class="item">
-            <div class="label">代表規格:</div>
-            <div class="message">フリーテープＬＴ、フリーテープＹ</div>
           </div>
         </div>
 

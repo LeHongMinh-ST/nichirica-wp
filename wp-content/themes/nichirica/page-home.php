@@ -24,41 +24,158 @@ get_header();
         <div class="swiper-slide">
           <div><img src="<?= THEME_URI ?>/assets/images/banner4.png" alt="banner4"></div>
         </div>
+        <div class="swiper-slide">
+          <div><img src="<?= THEME_URI ?>/assets/images/banner5.png" alt="banner5"></div>
+        </div>
       </div>
       <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+      <div class="content-slide">
+
+        <div class="content-main">
+          <div class="swiper" id="bannerContentSlide">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide swiper-content-slide none">
+<!--                <div class="sildeTitle">-->
+<!--                  NichiRicaのテープは自然環境に配慮したサステナブルな製品です。-->
+<!--                  <div class="line">-->
+<!--                    <div class="main-line"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--                <img class="mb" src="--><?php //= THEME_URI ?><!--/assets/images/chevron-right.svg" alt="">-->
+
+              </div>
+              <div class="swiper-slide swiper-content-slide">
+                  <div class="sildeTitle">
+                    <a href="">NichiRicaのテープは自然環境に配慮したサステナブルな製品です。</a>
+                    <div class="line">
+                      <div class="main-line"></div>
+                    </div>
+                  </div>
+                <img class="" src="<?= THEME_URI ?>/assets/images/chevron-right.svg" alt="">
+
+
+              </div>
+              <div class="swiper-slide swiper-content-slide">
+                <div class="sildeTitle">
+                  <a href="">技術開発情報はこちら</a>
+                  <div class="line">
+                    <div class="main-line"></div>
+                  </div>
+                </div>
+                <img class="" src="<?= THEME_URI ?>/assets/images/chevron-right.svg" alt="">
+
+              </div>
+              <div class="swiper-slide swiper-content-slide">
+                <div class="sildeTitle">
+                  <a href="">製品情報はこちら</a>
+                  <div class="line">
+                    <div class="main-line"></div>
+                  </div>
+                </div>
+                <img class="" src="<?= THEME_URI ?>/assets/images/chevron-right.svg" alt="">
+
+
+              </div>
+              <div class="swiper-slide swiper-content-slide">
+                <div class="sildeTitle">
+                  <a href="">NichiRicaってどんな会社？</a>
+                  <div class="line">
+                    <div class="main-line"></div>
+                  </div>
+                </div>
+                <img class="" src="<?= THEME_URI ?>/assets/images/chevron-right.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination">
+        </div>
+      </div>
 
     </div>
   </div>
-  <div class="categories">
+  <div class="posts size">
+    <div class="itemPost">
+
+      <div class="thumbnailPost">
+        <img src="<?= THEME_URI ?>/assets/images/top/post1.png" alt="">
+
+      </div>
+      <div class="contentPost">
+        <h3 class="titlePost">
+          NichiRicaのテープは自然環境に配慮したサステナブルな製品です。
+        </h3>
+        <div class="line">
+          <div class="main-line"></div>
+        </div>
+        <div class="buttonPostWrap">
+          <a href="<?= get_permalink(get_page_by_path('about-tape')) ?>"><div class="buttonPost">詳しく見る</div></a>
+        </div>
+      </div>
+    </div>
+    <div class="itemPost">
+
+      <div class="thumbnailPost">
+        <img src="<?= THEME_URI ?>/assets/images/top/post2.png" alt="">
+
+      </div>
+      <div class="contentPost">
+        <h3 class="titlePost">
+          NichiRicaってどんな会社？
+        </h3>
+        <div class="line">
+          <div class="main-line"></div>
+        </div>
+        <div class="buttonPostWrap">
+          <a href="<?= get_permalink(get_page_by_path('about-nichirica')) ?>"><div class="buttonPost">詳しく見る</div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="categories size">
+    <div class="categories--title">
+      製品情報
+    </div>
+
+    <div class="line">
+      <div class="main-line"></div>
+    </div>
     <div class="categories--content">
       <div class="categories--item">
         <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/cate-icon1.png" alt="cate-icon-1">
+          <img src="<?= THEME_URI ?>/assets/images/top/cate1.png" alt="cate-icon-1">
         </div>
         <div class="text-wrapper">テープ製品</div>
       </div>
       <div class="categories--item">
         <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/cate-icon2.png" alt="cate-icon-2">
+          <img src="<?= THEME_URI ?>/assets/images/top/cate2.png" alt="cate-icon-2">
         </div>
         <div class="text-wrapper">用紙</div>
       </div>
       <div class="categories--item">
         <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/cate-icon3.png" alt="cate-icon-3">
+          <img src="<?= THEME_URI ?>/assets/images/top/cate3.png" alt="cate-icon-3">
         </div>
         <div class="text-wrapper">ラベル</div>
       </div>
       <div class="categories--item">
         <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/cate-icon4.png" alt="cate-icon-4">
+          <img src="<?= THEME_URI ?>/assets/images/top/cate6.png" alt="cate-icon-6">
+        </div>
+        <div class="text-wrapper">自着機能資材</div>
+      </div>
+      <div class="categories--item">
+        <div class="circle">
+          <img src="<?= THEME_URI ?>/assets/images/top/cate4.png" alt="cate-icon-4">
         </div>
         <div class="text-wrapper">専用機械</div>
       </div>
       <div class="categories--item">
         <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/cate-icon5.png" alt="cate-icon-5">
+          <img src="<?= THEME_URI ?>/assets/images/top/cate5.png" alt="cate-icon-5">
         </div>
         <div class="text-wrapper">受託塗工</div>
       </div>
@@ -108,46 +225,6 @@ get_header();
       <a href="<?= get_permalink(get_page_by_path('docs')) ?>" class="nichi-btn">
         一覧を見る
       </a>
-    </div>
-  </div>
-  <div class="recruitment size">
-    <div class="section-header">
-      <div class="section-header--title">採用情報</div>
-      <div class="section-header--line">
-        <div class="line"></div>
-        <div class="line line-center"></div>
-        <div class="line"></div>
-      </div>
-    </div>
-    <?php
-    $current_page_id = get_the_ID();
-    $current_page = get_post($current_page_id);
-    $current_page_slug = $current_page->post_name;
-    ?>
-    <div class="section-content recruitment--list">
-      <?php if ($current_page_slug != 'recruitment/new-graduates') { ?>
-        <div class="recruitment--item" style="background-image: url(<?= THEME_URI ?>/assets/images/rq1.png)">
-          <a href="<?= get_permalink(get_page_by_path('recruitment/new-graduates')) ?>">
-            新卒
-          </a>
-        </div>
-      <?php } ?>
-      <?php if ($current_page_slug != 'recruitment/mid-term') { ?>
-
-        <div class="recruitment--item" style="background-image: url(<?= THEME_URI ?>/assets/images/rq2.png)">
-          <a href="<?= get_permalink(get_page_by_path('recruitment/mid-term')) ?>">
-            中途
-          </a>
-        </div>
-      <?php } ?>
-      <?php if ($current_page_slug != 'recruitment/part-time') { ?>
-
-        <div class="recruitment--item" style="background-image: url(<?= THEME_URI ?>/assets/images/rq3.png)">
-          <a href="<?= get_permalink(get_page_by_path('recruitment/part-time')) ?>">
-            パート
-          </a>
-        </div>
-      <?php } ?>
     </div>
   </div>
 

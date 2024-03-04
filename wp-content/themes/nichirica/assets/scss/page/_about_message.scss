@@ -1,0 +1,131 @@
+.about_message {
+  margin-top: 120px!important;
+  margin-bottom: 150px!important;
+  &__left {
+    max-width: 495px;
+  }
+  .about_message__content_pc {
+    display: flex;
+    @include sp {
+      display: none;
+    }
+  }
+
+  .about_message__content_mb {
+    display: none;
+    @include sp {
+      display: block;
+    }
+  }
+
+  &__content {
+    width: 1240px;
+    margin: 0 auto;
+    padding-left: 106px;
+    display: flex;
+    //justify-content: center;
+    gap: 28px;
+    @include sp {
+      width: 100%;
+      padding: 0;
+    }
+
+    .header {
+      color: #000;
+      font-family: Inter, sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; /* 48px */
+      letter-spacing: 16px;
+
+      padding-left: 20px;
+    }
+
+    .content{
+      @include sp {
+        width: 100%;
+        padding: 20px;
+      }
+      .content_image {
+        text-align: right;
+      }
+
+      margin-top: 47px;
+      .message {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 30px */
+
+        .mess-footer {
+          text-align: right;
+        }
+      }
+    }
+
+    .footer {
+      margin-top: 70px;
+      .note {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+        letter-spacing: 2.4px;
+      }
+
+      .signature {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 72px */
+        letter-spacing: 4.8px;
+      }
+    }
+
+    .about_message__image {
+      padding: 45px 60px;
+      width: 520px;
+      height: auto;
+
+      @include sp {
+        width: 275px;
+        padding: 0;
+        margin-bottom: 32px;
+      }
+    }
+  }
+
+}
+.read-together{
+  display: none;
+
+
+  @include sp {
+    width: 100%;
+    display: block;
+    margin-top: 90px;
+  }
+
+  .read-together-header {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 15px 0;
+    border-bottom: 1px solid #89887F;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+
+  .text-wrapper {
+    font-size: 16px;
+  }
+}

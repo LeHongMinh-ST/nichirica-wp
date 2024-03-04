@@ -17,11 +17,65 @@
       <div class="title-list">
         <a href="<?= get_permalink(get_page_by_path('about')) ?>">企業情報</a>
       </div>
+      <ul class="list-menu">
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('about/message')) ?>">
+            社長挨拶
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('about/profile')) ?>">
+            会社概要・会社沿革・組織図
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('about/environmental-policy')) ?>">
+            環境方針
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('about/offices')) ?>">
+            事業所・グループ企業
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="item-list">
       <div class="title-list">
         <a href="<?= get_permalink(get_page_by_path('product')) ?>">製品情報</a>
       </div>
+      <ul class="list-menu">
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-tape">
+            テープ製品
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-paper">
+            印刷用紙
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('product')) ?> #product-label">
+            ラベル
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-self-adhesive">
+            自着機能資材
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-machine">
+            専用機械
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-contract-coating">
+            受託塗工
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="item-list">
       <div class="title-list">
@@ -35,64 +89,61 @@
       <ul class="list-menu">
         <li>
           <a href="<?= get_permalink(get_page_by_path('recruitment/new-graduates')) ?>">
-            新卒
+            募集要項（新卒)
           </a>
         </li>
         <li>
           <a href="<?= get_permalink(get_page_by_path('recruitment/mid-term')) ?>">
-            中途
+            募集要項（中途）
           </a>
         </li>
         <li>
           <a href="<?= get_permalink(get_page_by_path('recruitment/mid-term')) ?>">
-            パート
+            募集要項（パート）
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('recruitment/benefits')) ?>">
+            福利厚生・社員インタビュー
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('faq')) ?>">
+            FAQ
           </a>
         </li>
       </ul>
     </div>
     <div class="item-list">
+<!--      <div class="title-list">-->
+<!--        <a href="--><?php //= get_permalink( get_option( 'page_for_posts' ) );?><!--">ニュース</a>-->
+<!--      </div>-->
       <div class="title-list">
-        <a href=""> 環境</a>
+        <a href="<?=get_permalink(get_page_by_path('inquiry'))?>">お問い合わせ</a>
       </div>
       <ul class="list-menu">
         <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('privacy-policy')) ?>">
+            プライバシーポリシー
           </a>
         </li>
         <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('press-release')) ?>">
+            プレスリリース
           </a>
         </li>
         <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('about-nichirica')) ?>">
+            NichiRicaってどんな会社？
           </a>
         </li>
         <li>
-          <a href="">
-            子リンク
-          </a>
-        </li>
-        <li>
-          <a href="">
-            子リンク
+          <a href="<?= get_permalink(get_page_by_path('about-tape')) ?>">
+            NichiRicaの製品について
           </a>
         </li>
       </ul>
-    </div>
-    <div class="item-list">
-      <div class="title-list">
-        <a href="<?= get_permalink( get_option( 'page_for_posts' ) );?>">ニュース</a>
-      </div>
-      <ul class="list-menu">
-        <li>
-          <a href="/inquiry">
-            お問い合わせ
-          </a>
-        </li>
-      </ul>
+
     </div>
   </div>
 </div>

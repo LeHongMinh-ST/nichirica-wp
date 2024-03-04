@@ -69,7 +69,7 @@ get_header();
                 </div>
                 <div class="message-image-item">
                   <img src="<?= THEME_URI ?>/assets/images/self-adhesive3.png " alt="product">
-                  <div class="des">医療用チューブの結束</div>
+                  <div class="des">電子部品製造工程でのマスキング</div>
                 </div>
               </div>
             </div>

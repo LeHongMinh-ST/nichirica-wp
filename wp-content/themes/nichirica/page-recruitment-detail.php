@@ -8,7 +8,7 @@ get_header();
 
 <?php get_template_part('template-parts/header/header-recruitment') ?>
 
-<?php get_template_part('template-parts/banners/banner7')?>
+<?php get_template_part('template-parts/banners/banner5')?>
 
   <div class="breadcrumb-area size">
     <nav>

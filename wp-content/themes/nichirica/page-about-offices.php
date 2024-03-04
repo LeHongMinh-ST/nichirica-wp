@@ -6,7 +6,6 @@ Template Name: About Offices
 get_header();
 ?>
 <?php get_template_part('template-parts/header/header-about') ?>
-<?php get_template_part('template-parts/banners/banner1') ?>
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">
@@ -14,7 +13,7 @@ get_header();
           <a href="<?= get_home_url() ?>">Top</a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('about')) ?>">社長挨拶</a>
+          <a href="<?= get_permalink(get_page_by_path('about')) ?>">企業情報</a>
         </li>
         <li>
         <span class="active">
@@ -208,6 +207,7 @@ get_header();
           <div class="sub-header">
             巴川物流サービス株式会社
           </div>
+          <p>［事業内容］　貨物自動車運送業および倉庫業</p>
           <div class=sub-list>
             <div class="sub-item">
               <div class="title">
@@ -241,9 +241,7 @@ get_header();
             株式会社トッパンTOMOEGAWAオプティカルフィルム
           </div>
           <p>［事業内容］　反射防止フィルム、機能性フィルム、合成樹脂の開発、製造、販売</p>
-          <div class="link">
-            <a href="http://www.shoei-printing.com/" target="_blank"><img src="<?= THEME_URI ?>/assets/images/link-icon.png" alt="">http://www.shoei-printing.com/</a>
-          </div>
+
           <div class=sub-list>
             <div class="sub-item">
               <div class="title">

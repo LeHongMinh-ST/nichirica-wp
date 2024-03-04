@@ -14,7 +14,7 @@ get_header();
           <a href="<?= get_home_url() ?>">Top</a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('about')) ?>">社長挨拶</a>
+          <a href="<?= get_permalink(get_page_by_path('about')) ?>">企業情報</a>
         </li>
         <li>
         <span class="active">
@@ -51,8 +51,10 @@ get_header();
             今後も、自然環境と共生し、社会に価値を提供し続ける企業として、NichiRicaは皆様と共に歩んでまいります。
             <br>
             <br>
-            株式会社NichiRica <br> 代表取締役社長 <br>
+            <div class="mess-footer">
+              株式会社NichiRica <br> 代表取締役社長 <br> <br>
             <b>島 章嘉</b>
+            </div>
           </div>
         </div>
       </div>
@@ -78,7 +80,7 @@ get_header();
             <br>
             <br>
             <br>
-            また、長年にわたる塗工・加工技術の研鑽を通じて、クリーンコーティングマシン及び関連加工設備の導入を実現しました。これにより、クリーン環境下での光学粘着製品加工や電子材料向け粘着加工などの製造受託業務においても顕著な成果を上げています
+            また、長年にわたる塗工・加工技術の研鑽を通じて、クリーンコーティングマシン及び関連加工設備の導入を実現しました。これにより、クリーン環境下での光学粘着製品加工や電子材料向け粘着加工などの製造受託業務においても顕著な成果を上げています。
             <br>
             <br>
             <br>
@@ -89,8 +91,11 @@ get_header();
             今後も、自然環境と共生し、社会に価値を提供し続ける企業として、NichiRicaは皆様と共に歩んでまいります。
             <br>
             <br>
-            株式会社NichiRica <br> 代表取締役社長 <br>
+
+            <div class="mess-footer">
+              株式会社NichiRica <br> 代表取締役社長 <br> <br>
             <b>島 章嘉</b>
+            </div>
           </div>
         </div>
       </div>

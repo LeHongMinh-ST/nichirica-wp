@@ -1,0 +1,83 @@
+.about_environmental_policy {
+  margin-bottom: 130px !important;
+  @include sp {
+    margin-top: 30px !important;
+  }
+
+  &__content {
+    width: 820px;
+    margin: 0 auto;
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  &__item {
+    margin-top: 40px;
+
+    &:first-child {
+      margin-top: 80px;
+    }
+
+    .header {
+      color: #000;
+      font-family: Inter, sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      //padding: 18px 0;
+
+      .header-line {
+        margin-top: 12px;
+        width: 100%;
+        .line {
+          width: 100%;
+          background: #89887F80;
+          height: 1px;
+        }
+
+        .line-center {
+          width: 103px;
+          background: #009E9C;
+        }
+      }
+
+      @include sp {
+        font-size: 28px;
+        span.header-text {
+          display: inline-block;
+
+          //&::after {
+          //  content: "";
+          //  display: block;
+          //  width: 103px;
+          //  height: 1px;
+          //  background: #009e9c;
+          //}
+        }
+      }
+
+    }
+
+    .content {
+      margin-top: 40px;
+      font-size: 20px;
+      @include sp {
+        font-size: 20px;
+      }
+      a {
+        color: #009E9C;
+      }
+      .sub-header {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 36px */
+      }
+    }
+  }
+}

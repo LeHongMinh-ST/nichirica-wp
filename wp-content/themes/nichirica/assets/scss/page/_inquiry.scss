@@ -1,0 +1,185 @@
+.inquiry {
+  p {
+    margin-bottom: 0!important;
+  }
+  margin-top: 90px !important;
+  margin-bottom: 90px!important;
+  @include sp {
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+  }
+  &__content {
+    width: 1240px;
+    margin: 0 auto;
+
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+}
+
+.nichi-form {
+
+  &__group {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 18px;
+    gap: 20px;
+    @include sp {
+      flex-wrap: wrap;
+      gap: 20px;
+
+    }
+    &.checkbox {
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      };
+      .nichi-form__label {
+        //width: auto;
+        @include sp {
+          width: auto;
+        }
+      }
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__label {
+    margin-top: 10px;
+    width: 210px;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include sp {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .checkbox {
+      width: 100%;
+      text-align: right;
+      input[type="checkbox"] {
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+
+        &:checked {
+          background-color: #009E9C;
+          border-color:  #009E9C;
+        }
+      }
+    }
+
+    &:has(.checkbox) {
+      margin-top: 0;
+    }
+  }
+
+  &__control {
+    width: 610px;
+
+    .input-note {
+      color: #000;
+      font-family: Inter, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 8px;
+    }
+    .group-input {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+
+      &.pc {
+        display: flex;
+        @include sp {
+          display:none;
+        }
+      }
+
+
+
+      .phone {
+        width: 120px;
+        &.first {
+          width: 80px;
+        }
+      }
+
+      .birthday {
+        width: 80px;
+        &.year {
+          width: 100px;
+        }
+      }
+
+      &.sp {
+        display:none;
+        @include sp {
+          .phone {
+            width: 100%;
+          }
+          display: block;
+        }
+      }
+    }
+
+    input {
+      width: 100%;
+      background: #F6F6F6;
+      border: 1px solid #89887F;
+      border-radius: 16px;
+      outline: none;
+      padding: 8px 8px;
+
+
+    }
+
+    input[type="text"] {
+
+    }
+
+    input[type="email"] {
+
+    }
+
+    textarea {
+      width: 100%;
+      background: #F6F6F6;
+      min-height: 200px;
+      padding: 8px 8px;
+      outline: none;
+      border: 1px solid #89887F;
+      border-radius: 16px;
+    }
+
+    .is-invalid {
+      border-color: #E73575;
+    }
+  }
+
+  .required {
+    color: #E73575;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .nichi-btn {
+    padding: 21px 79px;
+  }
+}

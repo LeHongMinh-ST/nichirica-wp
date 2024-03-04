@@ -7,13 +7,13 @@ get_header();
 ?>
 
 
-<?php get_template_part('template-parts/banners/banner6')?>
+<?php get_template_part('template-parts/banners/banner6') ?>
 
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">
         <li>
-          <a href="<?= get_home_url()?>">Top</a>
+          <a href="<?= get_home_url() ?>">Top</a>
         </li>
         <li>
         <span class="active">
@@ -23,7 +23,7 @@ get_header();
       </ul>
     </nav>
   </div>
-  <div class="products size">
+  <div class="products size" id="product-tape">
     <div class="section-header">
       <div class="section-header--title">テープ製品</div>
       <div class="section-header--line">
@@ -58,9 +58,9 @@ get_header();
     </div>
   </div>
 
-  <div class="products size">
+  <div class="products size" id="product-paper">
     <div class="section-header">
-      <div class="section-header--title">用紙</div>
+      <div class="section-header--title">印刷用紙</div>
       <div class="section-header--line">
         <div class="line"></div>
         <div class="line line-center"></div>
@@ -81,8 +81,7 @@ get_header();
       </div>
     </div>
   </div>
-
-  <div class="products size">
+  <div class="products size" id="product-label">
     <div class="section-header">
       <div class="section-header--title">ラベル</div>
       <div class="section-header--line">
@@ -103,6 +102,19 @@ get_header();
           </a>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="products size" id="product-self-adhesive">
+    <div class="section-header">
+      <div class="section-header--title">自着機能資材</div>
+      <div class="section-header--line">
+        <div class="line"></div>
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="section-content products--list">
       <div class="products--item">
         <div class="item-image">
           <img src="<?= THEME_URI ?>/assets/images/pr5.png" alt="products">
@@ -117,7 +129,7 @@ get_header();
     </div>
   </div>
 
-  <div class="products size">
+  <div class="products size" id="product-machine">
     <div class="section-header">
       <div class="section-header--title">専用機械</div>
       <div class="section-header--line">
@@ -163,7 +175,7 @@ get_header();
     </div>
   </div>
 
-  <div class="products size last">
+  <div class="products size last" id="product-contract-coating">
     <div class="section-header">
       <div class="section-header--title">受託塗工</div>
       <div class="section-header--line">
@@ -178,7 +190,7 @@ get_header();
           <img src="<?= THEME_URI ?>/assets/images/pr9.png" alt="products">
         </div>
         <div class="item-button">
-          <a href="<?= get_permalink(get_page_by_path('product-contract-coating')) ?>" class="">
+          <a href="<?= get_permalink(get_page_by_path('product/contract-coating')) ?>" class="">
             <span class="text">受託塗工</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>

@@ -1,0 +1,193 @@
+.products_detail {
+  width: 1050px;
+  margin: 44px auto 50px!important;
+
+  &:first-child {
+    margin-top: 86px !important;
+    @include sp {
+      margin-top: 37px;
+    }
+  }
+
+  &.rika-mail {
+    width: 820px;
+
+    .products_detail__item {
+      width: 100%;
+    }
+
+    .header-image {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+
+      img {
+        width: 400px;
+        height: auto;
+      }
+    }
+    .message {
+      max-width: 505px;
+    }
+  }
+
+
+  &.self-adhesive {
+    width: 630px;
+    .products_detail__item {
+      margin-top: 0;
+    }
+    @include sp {
+      width: 100%;
+      padding: 0 20px;
+
+      .header-image {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .item-image {
+      display: block!important;
+      .label {
+        font-weight: 500;
+      }
+      .message {
+        margin-top: 20px;
+        .des {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .message-image {
+      display: flex;
+      gap: 20px;
+      @include sp {
+        gap: 10px;
+        width: calc(100vw - 50px);
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  &.contract-coating {
+    width: 610px;
+    font-size: 24px;
+  }
+  @include sp {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0px;
+  }
+
+  .section-header {
+    .header {
+      font-family: Inter, sans-serif;
+      font-size: 24px;
+      text-align: left;
+      line-height: 29.5px;
+      font-weight: 700;
+    }
+
+    .line {
+      width: 100%;
+      max-width: 925px;
+      height: 1px;
+      background: #89887F;
+      margin-top: 15px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__item {
+    margin-top: 60px;
+    width: 505px;
+    @include sp {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    .header {
+      .header-title {
+        color: #000;
+        font-family: Inter, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @include sp {
+          font-weight: 500 !important;
+        }
+      }
+
+      .header-image {
+        margin-top: 10px;
+        @include sp {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .content {
+      margin-top: 60px;
+
+      .item {
+        margin-top: 17px;
+        display: flex;
+
+        .label {
+          min-width: 85px;
+        }
+
+        .message {
+          .message-item {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            @include sp {
+              .right {
+                padding-left: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.products_detail-banner-footer {
+  background: #D8D8D8;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .section-header--btn {
+    a {
+      position: relative;
+
+      .arrow {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

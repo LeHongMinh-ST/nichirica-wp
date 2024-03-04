@@ -92,10 +92,55 @@ get_header();
       <div class="about_tape--item ">
         <img src="<?=THEME_URI?>/assets/images/about_tape4.png" alt="about_tape">
       </div>
-      <div class="about_tape--item">
-        弊社のガムテープ「リカテープ」は、独自技術により開発された無臭・無害な澱粉系接着剤を使用しており、また構成素材が100％水溶性で容易に離解しますので、ダンボールに貼り付けたままでもリサイクルが可能です。
-        <br><br>
-        環境問題が重要視されている現代ではまさにリサイクル適正に優れた製品として高く評価されています。
+      <div class="about_tape--item list-type">
+        <div class="type-item">
+          <div class="type-header">
+            <div class="header-text">環境への配慮</div>
+            <div class="header-line">
+              <div class="line line-center"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="type-content">
+            NichiRicaのガムテープ製品は、とうもろこしなどの天然素材を糊に使用しており、自然環境に配慮した製品仕様になっています。そのため、段ボールと一緒にリサイクルすることが可能です。
+          </div>
+        </div>
+        <div class="type-item">
+          <div class="type-header">
+            <div class="header-text">高い生産性</div>
+            <div class="header-line">
+              <div class="line line-center"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="type-content">
+            封かん作業を行う場合、弊社の提供しているガムテープ繰出し機は、市販の粘着テープハンドカッターと比較して、作業の生産性を20％以上向上させることができます。
+          </div>
+        </div>
+        <div class="type-item">
+          <div class="type-header">
+            <div class="header-text">セキュリティ</div>
+            <div class="header-line">
+              <div class="line line-center"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="type-content">
+            NichiRicaのガムテープ製品は、市販の粘着テープ製品を使用した場合に比べて、テープが不正に剥がされることなく、完全な状態を維持することができます。
+          </div>
+        </div>
+        <div class="type-item">
+          <div class="type-header">
+            <div class="header-text">強力な接着力</div>
+            <div class="header-line">
+              <div class="line line-center"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="type-content">
+            NichiRicaのガムテープ製品は、市販の粘着テープ製品に比べて、強固に接着するため、完全密封が可能です。さらに温度変化にも強いのが特徴です。
+          </div>
+        </div>
       </div>
     </div>
   </div>

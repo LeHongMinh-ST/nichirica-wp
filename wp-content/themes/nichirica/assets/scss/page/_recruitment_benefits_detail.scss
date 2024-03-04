@@ -1,0 +1,80 @@
+.recruitment_benefits_detail {
+  width: 610px;
+  margin: 0 auto;
+  margin-top: 67px!important;
+  p {
+    margin: 0!important;
+  }
+  &.recruitment_benefits2 {
+    @include sp {
+      padding: 0;
+      width: 100%;
+    }
+    .recruitment_benefits2__content {
+      width: 610px;
+      @include sp {
+        width: 100%;
+      }
+    }
+    .section-header {
+      @include sp {
+        padding: 0 20px;
+      }
+
+    }
+    .section-header--title {
+      font-size: 32px;
+      padding: 0;
+      @include sp {
+        font-size: 24px;
+      }
+    }
+    .section-header--line {
+      width: 610px;
+      @include sp {
+        width: 100%;
+      }
+    }
+  }
+
+  @include sp {
+    width: 100%;
+    margin-top: 30px!important;
+    padding: 0 20px;
+  }
+
+  &__content {
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      padding: 15px 0;
+      border-bottom: 1px solid #89887F;
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 110px;
+      margin-bottom: 40px;
+      line-height: 150%;
+      @include sp {
+        font-size: 16px;
+        padding-left: 0;
+      }
+    }
+    .image {
+      width: 100%;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+
+
+
+  }
+  &.section-last {
+    @include sp {
+      margin-bottom: 2px!important;
+    }
+  }
+}
