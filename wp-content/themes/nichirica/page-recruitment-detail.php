@@ -15,8 +15,7 @@ get_header();
       <ul class="breadcrumb">
         <li>
           <a href="<?= get_home_url()?>">Top</a>
-        </li>
-        <li>
+        </li>        <li>
           <a href="<?= get_permalink(get_page_by_path('recruitment')) ?>">採用情報</a>
         </li>
         <li>

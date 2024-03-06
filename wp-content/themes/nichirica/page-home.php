@@ -48,7 +48,7 @@ get_header();
               </div>
               <div class="swiper-slide swiper-content-slide">
                   <div class="sildeTitle">
-                    <a href="">NichiRicaのテープは自然環境に配慮したサステナブルな製品です。</a>
+                    <a href="<?= get_permalink(get_page_by_path('about-tape')) ?>">NichiRicaのテープは自然環境に配慮したサステナブルな製品です。</a>
                     <div class="line">
                       <div class="main-line"></div>
                     </div>
@@ -59,7 +59,7 @@ get_header();
               </div>
               <div class="swiper-slide swiper-content-slide">
                 <div class="sildeTitle">
-                  <a href="">技術開発情報はこちら</a>
+                  <a href="<?= get_permalink(get_page_by_path('services')) ?>">技術開発情報はこちら</a>
                   <div class="line">
                     <div class="main-line"></div>
                   </div>
@@ -69,7 +69,7 @@ get_header();
               </div>
               <div class="swiper-slide swiper-content-slide">
                 <div class="sildeTitle">
-                  <a href="">製品情報はこちら</a>
+                  <a href="<?= get_permalink(get_page_by_path('product')) ?>">製品情報はこちら</a>
                   <div class="line">
                     <div class="main-line"></div>
                   </div>
@@ -80,7 +80,7 @@ get_header();
               </div>
               <div class="swiper-slide swiper-content-slide">
                 <div class="sildeTitle">
-                  <a href="">NichiRicaってどんな会社？</a>
+                  <a href="<?= get_permalink(get_page_by_path('about-nichirica')) ?>">NichiRicaってどんな会社？</a>
                   <div class="line">
                     <div class="main-line"></div>
                   </div>

@@ -31,7 +31,7 @@ get_header();
       <div class="products_detail__item">
         <div class="header">
           <div class="header-title">
-            リカメール
+            リカセルフ
           </div>
           <div class="header-image">
             <img src="<?= THEME_URI ?>/assets/images/self-adhesive1.png " alt="product">
@@ -40,14 +40,14 @@ get_header();
         <div class="content">
           <div class="item">
             <div class="label">製品名:</div>
-            <div class="message">リカメール</div>
+            <div class="message">リカセルフ</div>
           </div>
           <div class="item">
             <div class="label">用途:</div>
             <div class="message">
               <ul>
-                <li>合成樹脂チューブやケーブルなどの結束用、</li>
-                <li>電子部品生産工程内での搬送用、マスキング用。</li>
+                <li>無害の為、野菜や果物の誘引、結束に使用</li>
+                <li>マイバスケットでのお買い上げ後の印、忘れ物の一時保管札に使用</li>
 
               </ul>
             </div>
@@ -55,8 +55,7 @@ get_header();
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              接着剤塗工面どうしを重ねて加圧すると、その部分だけが接着し、<br>
-              それ以外の部分はどんな生活物質（粘着性物質を除く）にも接着しない。
+              接着剤塗工面どうしを重ねて加圧すると、その部分だけが接着し、それ以外の部分はどんな生活物質（粘着性物質を除く）にも接着しない。
             </div>
           </div>
           <div class="item item-image">

@@ -106,7 +106,7 @@
 
 .posts {
   @include sp {
-    margin-top: 38px;
+    margin-top: 38px!important;
   }
   .line {
     background: #89887f7a;

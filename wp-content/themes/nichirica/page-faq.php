@@ -5,8 +5,25 @@ Template Name: FAQ
 
 get_header();
 ?>
-<?php get_template_part('template-parts/banners/banner5')?>
+<?php get_template_part('template-parts/header/header-recruitment') ?>
 
+<?php get_template_part('template-parts/banners/banner5')?>
+  <div class="breadcrumb-area size">
+    <nav>
+      <ul class="breadcrumb">
+        <li>
+          <a href="<?= get_home_url()?>">Top</a>
+        </li>        <li>
+          <a href="<?= get_permalink(get_page_by_path('recruitment')) ?>">採用情報</a>
+        </li>
+        <li>
+        <span class="active">
+          <?php single_post_title(); ?>
+        </span>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <div class="faq size">
     <div class="wrapTop">
       <div class="itemContent">

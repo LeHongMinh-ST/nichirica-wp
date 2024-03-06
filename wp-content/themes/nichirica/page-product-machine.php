@@ -63,7 +63,7 @@ get_header();
       <div class="products_detail__item">
         <div class="header">
           <div class="header-title">
-            BP555E
+            BP555
           </div>
           <div class="header-image">
             <img src="<?= THEME_URI ?>/assets/images/machine2.png " alt="product">
@@ -73,7 +73,7 @@ get_header();
         <div class="content">
           <div class="item">
             <div class="label">製品名:</div>
-            <div class="message">BP555E</div>
+            <div class="message">BP555</div>
           </div>
           <div class="item">
             <div class="label">用途:</div>
@@ -104,7 +104,7 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ電動繰出し機</div>
+            <div class="message">ガムテープ手動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>

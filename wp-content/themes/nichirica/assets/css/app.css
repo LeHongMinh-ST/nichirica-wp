@@ -430,7 +430,7 @@
 }
 @media screen and (max-width: 600px) {
   .posts {
-    margin-top: 38px;
+    margin-top: 38px !important;
   }
 }
 .posts .line {
@@ -2234,13 +2234,18 @@
   line-height: normal;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 @media screen and (max-width: 600px) {
   .nichi-form__label {
     width: 100%;
     margin-top: 0;
   }
+}
+.nichi-form__label .main-title .sub-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
 }
 .nichi-form__label .checkbox {
   width: 100%;
