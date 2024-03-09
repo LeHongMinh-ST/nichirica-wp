@@ -7,7 +7,7 @@ $themePrefix = 'nichirica';
 
 $themeUri = get_template_directory_uri() . '/assets';
 
-$themeVersion = '1.1.6';
+$themeVersion = '1.1.8';
 
 if ( ! defined( 'THEME_URI' ) ) {
   // Replace the version number of the theme on each release.
@@ -172,6 +172,7 @@ function nichirica_scripts() {
 
   wp_enqueue_script( $themePrefix . '-jquery', $themeUri . "/js/jquery.js", array(), $themeVersion, true );
   wp_enqueue_script( $themePrefix . '-bootstrap.bundle.min', $themeUri . "/js/bootstrap.bundle.min.js", array(), $themeVersion, true );
+  wp_enqueue_script( $themePrefix . '-jquery.validate.min.js', $themeUri . "/js/jquery.validate.min.js", array(), $themeVersion, true );
   wp_enqueue_script( $themePrefix . '-swiper-bundle', $themeUri . "/js/swiper-bundle.min.js", array(), $themeVersion, true );
   wp_enqueue_script( $themePrefix . '-main', $themeUri . "/js/main.js", array(), $themeVersion, true );
 

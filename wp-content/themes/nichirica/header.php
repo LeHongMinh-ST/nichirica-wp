@@ -41,9 +41,9 @@
       ])
       ?>
       <ul class="list-locale">
-        <li class="item-locale"><a href="/<?=get_home_url()?>">JA</a></li>
+        <li class="item-locale"><a href="/<?=get_home_url()?>">日本語</a></li>
         <li class="item-locale">/</li>
-        <li class="item-locale"><a href="/en/<?=get_home_url()?>">EN</a></li>
+        <li class="item-locale"><a href="/en/<?=get_home_url()?>">English</a></li>
       </ul>
     </div>
 
@@ -70,9 +70,9 @@
     ])
     ?>
     <ul class="list-locale">
-      <li class="item-locale"><a href="/<?=get_home_url()?>">JA</a></li>
+      <li class="item-locale"><a href="/<?=get_home_url()?>">日本語</a></li>
       <li class="item-locale">/</li>
-      <li class="item-locale"><a href="/en/<?=get_home_url()?>">EN</a></li>
+      <li class="item-locale"><a href="/en/<?=get_home_url()?>">English</a></li>
     </ul>
   </div>
 </header>

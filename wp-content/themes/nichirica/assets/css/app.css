@@ -2273,7 +2273,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 8px;
+  padding: 5px;
 }
 .nichi-form__control .group-input {
   display: flex;
@@ -2319,6 +2319,34 @@
   outline: none;
   padding: 8px 8px;
 }
+.nichi-form__control select {
+  width: 100%;
+  background: #F6F6F6;
+  border: 1px solid #89887F;
+  border-radius: 16px;
+  outline: none;
+  padding: 8px 8px;
+}
+.nichi-form__control input.error {
+  position: relative;
+  border: 2px solid #CF002D;
+  background: url("../images/warning.png") right no-repeat;
+  background-position-x: 98%;
+}
+.nichi-form__control label.error {
+  color: #CF002D;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+.nichi-form__control label.error:before {
+  content: "※";
+  font-size: 12px;
+  padding: 5px;
+}
 .nichi-form__control textarea {
   width: 100%;
   background: #F6F6F6;
@@ -2328,8 +2356,43 @@
   border: 1px solid #89887F;
   border-radius: 16px;
 }
+.nichi-form__control textarea.error {
+  position: relative;
+  border: 2px solid #CF002D;
+  background: url("../images/warning.png") no-repeat 98% 5%;
+}
 .nichi-form__control .is-invalid {
-  border-color: #E73575;
+  border: 2px solid #CF002D;
+  background: url("../images/warning.png") right no-repeat;
+  background-position-x: 98%;
+}
+.nichi-form__control .birthday.is-invalid {
+  background: none;
+}
+.nichi-form__control .phone.is-invalid {
+  background: none;
+}
+.nichi-form__control .input-note-error {
+  display: none;
+  color: #CF002D;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5px;
+}
+.nichi-form__control .input-note-error.show {
+  display: block;
+}
+.nichi-form__control .error-phone-bg {
+  display: none;
+}
+.nichi-form__control .error-phone-bg.show {
+  display: block;
+}
+.nichi-form__control textarea.is-invalid {
+  background: url("../images/warning.png") no-repeat 98% 5%;
 }
 .nichi-form .required {
   color: #E73575;

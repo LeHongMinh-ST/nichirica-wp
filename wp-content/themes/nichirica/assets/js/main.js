@@ -1,5 +1,3 @@
-let programmaticSlideChange = false;
-
 const swiper = new Swiper('#bannerSlide', {
   slidesPerView: "auto",
   spaceBetween: 30,
@@ -45,6 +43,14 @@ const isValidate = (inputId) => {
   const value = $(`#${inputId}`).val();
   if (value === '') {
     $(`#${inputId}`).addClass('is-invalid');
+    $(`#input-error-${inputId}`).addClass('show')
+    if (inputId === 'phone1' || inputId === 'phone2' || inputId === 'phone3') {
+      $('#phone1').addClass('is-invalid')
+      $('#phone2').addClass('is-invalid')
+      $('#phone3').addClass('is-invalid')
+      $('#bg-error').addClass('show')
+      $(`#input-error-phone`).addClass('show')
+    }
     return false;
   } else {
     $(`#${inputId}`).removeClass('is-invalid');
@@ -58,12 +64,9 @@ const validateEmail = (email) => {
 }
 
 const validateForm = () => {
-  const width = $(window).width();
-  let phone = true
-  if (width > 430) {
-    phone = isValidate('phone1') && isValidate('phone2') && isValidate('phone3');
-  } else {
-    phone = isValidate('phone4');
+  const phone = isValidate('phone1') || isValidate('phone2') || isValidate('phone3');
+  if (!phone) {
+    $('#bg-error').addClass('show')
   }
   const name = isValidate('name');
   const department = isValidate('department');
@@ -76,16 +79,11 @@ const validateForm = () => {
 }
 
 const validateFormEntry = () => {
-  const width = $(window).width();
-  let phone = true
-  let birthday = true
-  if (width > 430) {
-    birthday = isValidate('year') || isValidate('month') || isValidate('day');
-    phone = isValidate('phone1') && isValidate('phone2') && isValidate('phone3');
-  } else {
-    birthday = isValidate('birthday1');
-    phone = isValidate('phone4');
+  const birthday = isValidate('year') || isValidate('month') || isValidate('day');
+  if (!phone) {
+    $('#bg-error').addClass('show')
   }
+  const phone = isValidate('phone1') && isValidate('phone2') && isValidate('phone3');
   const name = isValidate('name');
   const address = isValidate('address');
   const email = isValidate('email');
@@ -96,28 +94,33 @@ const validateFormEntry = () => {
   return name && email && phone && address && content && birthday && isEmail && classNumber && pr
 }
 
-$('#phone1 , #phone2 , #phone3').change( function () {
-  $('#phone').val($('#phone1').val() + $('#phone2').val() + $('.#phone3').val());
-})
-
-$('#phone4').change( function () {
-  $('#phone').val($('#phone4').val());
-})
-
-$('#year, #month, #day').change( function () {
-  $('#birthday').val($('#year').val() ?? '1970' + '-' + $('#month').val() ?? '01' + '-' + $('#day').val()) ?? '01'
-})
-
-$('#birthday1').change( function () {
-  $('.birthday').val($('#birthday1').val());
-})
-
-$("input,textarea").on("keyup", function (e) {
+$("input, textarea").on("keyup", function (e) {
   $(this).removeClass('is-invalid');
+  const name = $(this).attr('id');
+  $(`#input-error-${name}`).removeClass('show')
+  if (name === 'phone1' || name === 'phone2' || name === 'phone3') {
+    if ($('#phone1').val() !== '' && $('#phone2').val() !== '' && $('#phone3').val() !== '') {
+      $('#bg-error').removeClass('show')
+      $(`#input-error-phone`).removeClass('show')
+    }
+  }
+  isValidate(name);
+})
+
+$("select").change(function () {
+  $(this).removeClass('is-invalid');
+  const name = $(this).attr('id');
+  $(`#input-error-${name}`).removeClass('show')
+  isValidate(name);
+})
+
+$("input, textarea").blur(function () {
+  const name = $(this).attr('id');
+  isValidate(name);
 })
 
 
-$('.twoLineMenuMB').click(function (){
+$('.twoLineMenuMB').click(function () {
   $(this).toggleClass('show')
   $('.menu-mb-detail').toggleClass('show')
   $('.header-main').toggleClass('show-menu-mobile')
@@ -149,11 +152,62 @@ $('.confirm-try').change(function () {
   }
 })
 
+
+
 $('.btn-submit-try').click(function (e) {
-  console.log(validateFormEntry())
-  if ($(this).hasClass('disabled') || !validateFormEntry()) {
+  if ($(this).hasClass('disabled') || !$('#form-inquiry').valid()) {
     e.preventDefault();
   }
 })
 
 
+
+function populateYears() {
+  var select = document.getElementById("year");
+  var currentYear = new Date().getFullYear();
+  for (var i = currentYear; i >= currentYear - 100; i--) {
+    var option = document.createElement("option");
+    option.text = i;
+    option.value = i;
+    select.add(option);
+  }
+}
+
+function populateMonths() {
+  var select = document.getElementById("month");
+  for (var i = 1; i <= 12; i++) {
+    var option = document.createElement("option");
+    option.text = i;
+    option.value = i;
+    select.add(option);
+  }
+}
+
+function populateDays() {
+  var year = document.getElementById("year").value;
+  var month = document.getElementById("month").value;
+  var daysInMonth = daysInMonthForYearMonth(year, month);
+  var select = document.getElementById("day");
+  select.innerHTML = '';
+  for (var i = 1; i <= daysInMonth; i++) {
+    var option = document.createElement("option");
+    option.text = i;
+    option.value = i;
+    select.add(option);
+  }
+}
+
+function daysInMonthForYearMonth(year, month) {
+  return new Date(year, month, 0).getDate();
+}
+
+function isLeapYear(year) {
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+}
+
+populateYears();
+populateMonths();
+populateDays();
+
+document.getElementById("year").addEventListener("change", populateDays);
+document.getElementById("month").addEventListener("change", populateDays);
