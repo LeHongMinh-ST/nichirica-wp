@@ -1614,8 +1614,6 @@
   font-size: 20px;
   line-height: 150%;
   margin-top: 48px;
-  display: flex;
-  gap: 20px;
 }
 @media screen and (max-width: 600px) {
   .about_tape--item {
@@ -1623,93 +1621,107 @@
     flex-wrap: wrap;
   }
 }
-.about_tape--item.tape-wrap .tape--item img {
-  width: 400px;
-}
-@media screen and (max-width: 600px) {
-  .about_tape--item.tape-wrap .tape--item img {
-    width: 100%;
-  }
-}
-.about_tape--item.tape-wrap .tape--item .content {
-  margin-top: 28px;
-  width: 394px;
-}
-@media screen and (max-width: 600px) {
-  .about_tape--item.tape-wrap .tape--item .content {
-    width: 100%;
-  }
-}
-.about_tape--item.tape-wrap .tape--item .content .title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 17px;
-  padding: 15px 0;
-  border-bottom: 1px solid #89887F;
-}
-.about_tape--item.tape-wrap .tape--item .content .des {
-  font-size: 20px;
-  margin-bottom: 20px;
-  line-height: 150%;
-}
-@media screen and (max-width: 600px) {
-  .about_tape--item.tape-wrap .tape--item .content .des {
-    font-size: 16px;
-  }
-}
-.about_tape--item.tape-wrap .tape--item .content .des .des-bold {
-  font-weight: 500;
-  color: #009e9c;
-}
-.about_tape--item .image1 img {
+.about_tape--item .tape-item-title {
   width: 100%;
-}
-.about_tape--item .message {
-  font-size: 20px;
-  width: 394px;
-}
-@media screen and (max-width: 600px) {
-  .about_tape--item .message {
-    width: 100%;
-  }
-}
-.about_tape--item.list-type {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.about_tape--item.list-type .type-item {
-  width: 400px;
-}
-.about_tape--item.list-type .type-item .type-header {
   font-size: 24px;
 }
-.about_tape--item.list-type .type-item .type-header .header-text {
+.about_tape--item .tape-item-title .header-text {
   font-weight: bold;
 }
-.about_tape--item.list-type .type-item .type-header .header-line {
+.about_tape--item .tape-item-title .header-line {
   margin-top: 14px;
   width: 100%;
 }
-.about_tape--item.list-type .type-item .type-header .header-line .line {
+.about_tape--item .tape-item-title .header-line .line {
   width: 100%;
   background: rgba(137, 136, 127, 0.5019607843);
   height: 1px;
 }
-.about_tape--item.list-type .type-item .type-header .header-line .line-center {
+.about_tape--item .tape-item-title .header-line .line-center {
   width: 103px;
   background: #009E9C;
 }
-.about_tape--item.list-type .type-item .type-content {
-  margin-top: 20px;
-  font-size: 20px;
-  line-height: 150%;
-  max-width: 380px;
+.about_tape--item .tape-item-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.about_tape--item .tape-item-content .tape-item-detail {
+  width: 400px;
 }
 @media screen and (max-width: 600px) {
-  .about_tape--item.list-type .type-item .type-content {
+  .about_tape--item .tape-item-content .tape-item-detail {
+    width: 100%;
+  }
+}
+.about_tape--item .tape-item-content .tape-item-detail--header {
+  padding: 8px;
+  background-color: #009E9C;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.about_tape--item .tape-item-content .tape-item-detail--content {
+  margin-top: 10px;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item img {
+  width: 400px;
+}
+@media screen and (max-width: 600px) {
+  .about_tape--item .tape-item-content .tape-item-detail.tape--item img {
+    width: 100%;
+  }
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content {
+  margin-top: 28px;
+  width: 394px;
+}
+@media screen and (max-width: 600px) {
+  .about_tape--item .tape-item-content .tape-item-detail.tape--item .content {
+    width: 100%;
+  }
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  padding: 15px 0;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .title .header-text {
+  font-weight: bold;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .title .header-line {
+  margin-top: 14px;
+  width: 100%;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .title .header-line .line {
+  width: 100%;
+  background: rgba(137, 136, 127, 0.5019607843);
+  height: 1px;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .title .header-line .line-center {
+  width: 103px;
+  background: #009E9C;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .des {
+  font-size: 20px;
+  line-height: 150%;
+}
+@media screen and (max-width: 600px) {
+  .about_tape--item .tape-item-content .tape-item-detail.tape--item .content .des {
     font-size: 16px;
   }
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content .des .des-bold {
+  font-weight: 500;
+  color: #009e9c;
+}
+.about_tape--item .tape-item-content .tape-item-detail.tape--item .content.video .header-text {
+  font-size: 16px;
+}
+.about_tape--item .tape-item-sub-content {
+  margin-top: 20px;
 }
 
 .service {

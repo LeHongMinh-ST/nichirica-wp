@@ -18,110 +18,123 @@
     line-height: 150%;
     margin-top: 48px;
 
-    display: flex;
-    gap: 20px;
     @include sp {
       gap: 0;
       flex-wrap: wrap;
     }
 
-    &.tape-wrap {
-      .tape--item {
-        img {
-          width: 400px;
-          @include sp {
-            width: 100%;
-          }
+    .tape-item-title {
+      width: 100%;
+      font-size: 24px;
+      .header-text {
+        font-weight: bold;
+      }
+      .header-line {
+        margin-top: 14px;
+        width: 100%;
+        .line {
+          width: 100%;
+          background: #89887F80;
+          height: 1px;
         }
 
-        .content {
-          margin-top: 28px;
-          width: 394px;
-          @include sp {
-            width: 100%;
-          }
-          .title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 17px;
-            padding: 15px 0;
-            border-bottom: 1px solid #89887F;
-          }
-          .des{
-            font-size: 20px;
-            margin-bottom: 20px;
-            line-height: 150%;
-            @include sp {
-              font-size: 16px;
-            }
-
-            .des-bold {
-              font-weight: 500;
-              color: #009e9c;
-            }
-          }
+        .line-center {
+          width: 103px;
+          background: #009E9C;
         }
       }
     }
 
-    .image1 {
-      img {
-        width: 100%;
-      }
-    }
-
-    .message {
-      font-size: 20px;
-      width: 394px;
-      @include sp {
-        width: 100%;
-      }
-    }
-
-    &.list-type {
+    .tape-item-content {
       display: flex;
-      flex-wrap: wrap;
       gap: 20px;
-
-
-
-      .type-item {
+      flex-wrap: wrap;
+      padding-top: 20px;
+      .tape-item-detail {
         width: 400px;
 
-        .type-header {
-          font-size: 24px;
-          .header-text {
-            font-weight: bold;
-          }
-          .header-line {
-            margin-top: 14px;
-            width: 100%;
-            .line {
+
+        @include sp {
+          width: 100%;
+        }
+
+        &--header {
+          padding: 8px;
+          background-color: #009E9C;
+          color: white;
+          font-size: 22px;
+          font-weight: bold;
+        }
+
+        &--content {
+          margin-top: 10px;
+        }
+
+        &.tape--item {
+          img {
+            width: 400px;
+            @include sp {
               width: 100%;
-              background: #89887F80;
-              height: 1px;
+            }
+          }
+
+          .content {
+            margin-top: 28px;
+            width: 394px;
+            @include sp {
+              width: 100%;
+            }
+            .title {
+              font-size: 24px;
+              font-weight: bold;
+              margin-bottom: 17px;
+              padding: 15px 0;
+              .header-text {
+                font-weight: bold;
+              }
+              .header-line {
+                margin-top: 14px;
+                width: 100%;
+                .line {
+                  width: 100%;
+                  background: #89887F80;
+                  height: 1px;
+                }
+
+                .line-center {
+                  width: 103px;
+                  background: #009E9C;
+                }
+              }
+            }
+            .des{
+              font-size: 20px;
+              line-height: 150%;
+              @include sp {
+                font-size: 16px;
+              }
+
+              .des-bold {
+                font-weight: 500;
+                color: #009e9c;
+              }
             }
 
-            .line-center {
-              width: 103px;
-              background: #009E9C;
+            &.video {
+              .header-text {
+                font-size: 16px;
+              }
             }
           }
         }
 
-        .type-content {
-          margin-top: 20px;
-          font-size: 20px;
-          line-height: 150%;
-          max-width: 380px;
-
-          @include sp {
-            font-size: 16px;
-          }
-        }
       }
-
     }
+
+    .tape-item-sub-content {
+      margin-top: 20px;
+    }
+
   }
 
 }
