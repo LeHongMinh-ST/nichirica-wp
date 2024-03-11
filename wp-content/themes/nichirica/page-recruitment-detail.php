@@ -47,7 +47,7 @@ get_header();
 
     </div>
   </div>
-  <div class="banner size banner-footer" style="background-image: url(<?= THEME_URI ?>/assets/images/header7.png);">
+  <div class="banner banner-footer" style="background-image: url(<?= THEME_URI ?>/assets/images/header7.png);">
     <div class="section-header">
       <div class="section-header--title">社員インタビュー</div>
       <div class="section-header--line">
@@ -62,7 +62,7 @@ get_header();
     </div>
   </div>
 
-  <div class="recruitment_footer size">
+  <div class="recruitment_footer">
     <div class="welfare item">
       <a href="<?= get_permalink(get_page_by_path('recruitment/benefits')) ?>">
         <div class="circle">
@@ -72,7 +72,7 @@ get_header();
       </a>
     </div>
     <div class="faq item">
-      <a href="<?= get_permalink(get_page_by_path('faq')) ?>">
+      <a href="<?= get_permalink(get_page_by_path('recruitment/faq')) ?>">
         <div class="circle">
           <img src="<?= THEME_URI ?>/assets/images/faq-icon.png" alt="welfare">
         </div>

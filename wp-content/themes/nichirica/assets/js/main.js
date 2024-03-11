@@ -2,7 +2,9 @@ const swiper = new Swiper('#bannerSlide', {
   slidesPerView: "auto",
   spaceBetween: 30,
   loop: true,
-  // autoplay: true,
+  autoplay: {
+    delay: 5000,
+  },
 
   // If we need pagination
   pagination: {

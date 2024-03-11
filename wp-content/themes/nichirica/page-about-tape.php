@@ -40,6 +40,7 @@ get_header();
           </div>
         </div>
         <div class="tape-item-content">
+
           <div class="tape-item-detail">
             <div class="tape-item-detail--header">
               自然環境への配慮 <br>
@@ -51,38 +52,35 @@ get_header();
           </div>
           <div class="tape-item-detail">
             <div class="tape-item-detail--header">
-              自然環境への配慮 <br>
-              サスティナビリティ
+              高い生産性 <br>
+              省人・省力化
             </div>
             <div class="tape-item-detail--content">
-              樹脂性のテープはリサイクルの過程で異物として除去されますが、NichiRicaのガムテープ製品は、とうもろこしなどの天然素材を糊に使用し自然環境に配慮した製品仕様のため、段ボールと一緒にリサイクルされます。自然環境に配慮したサスティナブルな製品です。
+              封かん作業を行う場合、弊社の提供しているガムテープ繰出し機は、市販のクラフト粘着テープハンドカッターと比較して、作業効率を各段にアップさせ、生産性を20％以上向上させることができます。 また自動封函機を使用することにより、省人化、省力化が可能です。            </div>
+          </div>
+          <div class="tape-item-detail">
+            <div class="tape-item-detail--header">
+              セキュリティ
+            </div>
+            <div class="tape-item-detail--content">
+              テープが加熱等により不正に剥がされることが無いため、盗難・すり替え・紛失・異物混入を防止します。輸送上のトラブル防止にも繋がります。
             </div>
           </div>
           <div class="tape-item-detail">
             <div class="tape-item-detail--header">
-              自然環境への配慮 <br>
-              サスティナビリティ
+              強力な接着力<br>対候性
             </div>
             <div class="tape-item-detail--content">
-              樹脂性のテープはリサイクルの過程で異物として除去されますが、NichiRicaのガムテープ製品は、とうもろこしなどの天然素材を糊に使用し自然環境に配慮した製品仕様のため、段ボールと一緒にリサイクルされます。自然環境に配慮したサスティナブルな製品です。
+              段ボールと一体となり強固に接着するため、完全密封が可能です。さらに温度変化にも強く、冷凍保管、高温保管による影響を受けません。
             </div>
           </div>
           <div class="tape-item-detail">
             <div class="tape-item-detail--header">
-              自然環境への配慮 <br>
-              サスティナビリティ
+              QRコードも印刷可能
+
             </div>
             <div class="tape-item-detail--content">
-              樹脂性のテープはリサイクルの過程で異物として除去されますが、NichiRicaのガムテープ製品は、とうもろこしなどの天然素材を糊に使用し自然環境に配慮した製品仕様のため、段ボールと一緒にリサイクルされます。自然環境に配慮したサスティナブルな製品です。
-            </div>
-          </div>
-          <div class="tape-item-detail">
-            <div class="tape-item-detail--header">
-              自然環境への配慮 <br>
-              サスティナビリティ
-            </div>
-            <div class="tape-item-detail--content">
-              樹脂性のテープはリサイクルの過程で異物として除去されますが、NichiRicaのガムテープ製品は、とうもろこしなどの天然素材を糊に使用し自然環境に配慮した製品仕様のため、段ボールと一緒にリサイクルされます。自然環境に配慮したサスティナブルな製品です。
+              表面に剥離加工をしていないため、テープ表面に印刷や筆記が可能です。ロゴやバーコード、QRコードの印刷も可能で、会社や商品のPRにも活用されております。
             </div>
           </div>
         </div>
@@ -134,7 +132,7 @@ get_header();
           一般的にご家庭で使用されている大部分が「クラフト粘着テープ」であり、石油化学系の接着剤を使用しています。対して「ガムテープ」は水を湿らせて接着させる、切手のようなテープです。弊社のガムテープ「リカテープ」は、独自技術により開発された無臭・無害なでん粉系接着剤を使用しており、構成素材に天然由来成分を使用し、100％水溶性で容易に離解しますので、ダンボールと一緒にリサイクルされます。環境問題が重要視されている現代ではまさにリサイクル適正に優れた製品として高く評価されています。自然環境にやさしいサスティナブルな製品で、地球の未来に貢献しています。
         </div>
       </div>
-      <div class="about_tape--item">
+      <div class="about_tape--item mr-bottom-80">
         <div class="tape-item-title">
           <div class="header-text">紹介動画</div>
           <div class="header-line">
@@ -142,7 +140,7 @@ get_header();
             <div class="line"></div>
           </div>
         </div>
-        <div class="tape-item-content">
+        <div class="tape-item-content ">
           <div class="tape-item-detail tape--item">
 
             <div class="content video">

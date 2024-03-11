@@ -81,6 +81,10 @@
         margin: 0;
         min-height: 126px;
       }
+      .sildeTitle {
+        width: 100%;
+
+      }
       img {
         margin-left: 50px;
         width: 10px !important;
@@ -239,6 +243,9 @@
       //background: #FFFFFF;
       //border-radius: 50%;
     }
+    a {
+      text-decoration: none;
+    }
 
     .text-wrapper {
       margin-top: 14px;
@@ -248,6 +255,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+      color: #000;
     }
   }
 }

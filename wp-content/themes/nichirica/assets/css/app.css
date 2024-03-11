@@ -406,6 +406,9 @@
     min-height: 126px;
   }
 }
+.main-banner .content-slide .swiper-content-slide .sildeTitle {
+  width: 100%;
+}
 .main-banner .content-slide .swiper-content-slide img {
   margin-left: 50px;
   width: 10px !important;
@@ -552,6 +555,9 @@
 .categories--item .circle {
   margin: 0 auto;
 }
+.categories--item a {
+  text-decoration: none;
+}
 .categories--item .text-wrapper {
   margin-top: 14px;
   text-align: center;
@@ -560,6 +566,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: #000;
 }
 
 .press-release {
@@ -2091,6 +2098,9 @@
   width: 610px;
   font-size: 24px;
 }
+.products_detail.contract-coating .products_detail__content img {
+  width: 100%;
+}
 @media screen and (max-width: 600px) {
   .products_detail {
     width: 100%;
@@ -2299,6 +2309,12 @@
   .nichi-form__control .group-input.pc {
     display: none;
   }
+}
+.nichi-form__control .group-input #bg-error {
+  background-image: url("../images/warning.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
 }
 .nichi-form__control .group-input .phone {
   width: 120px;

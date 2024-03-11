@@ -108,7 +108,7 @@
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('faq')) ?>">
+          <a href="<?= get_permalink(get_page_by_path('recruitment/faq')) ?>">
             FAQ
           </a>
         </li>

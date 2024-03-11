@@ -37,22 +37,24 @@ get_header();
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide swiper-content-slide none">
-<!--                <div class="sildeTitle">-->
-<!--                  NichiRicaのテープは自然環境に配慮したサステナブルな製品です。-->
-<!--                  <div class="line">-->
-<!--                    <div class="main-line"></div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--                <img class="mb" src="--><?php //= THEME_URI ?><!--/assets/images/chevron-right.svg" alt="">-->
+                <!--                <div class="sildeTitle">-->
+                <!--                  NichiRicaのテープは自然環境に配慮したサステナブルな製品です。-->
+                <!--                  <div class="line">-->
+                <!--                    <div class="main-line"></div>-->
+                <!--                  </div>-->
+                <!--                </div>-->
+                <!--                <img class="mb" src="-->
+                <?php //= THEME_URI ?><!--/assets/images/chevron-right.svg" alt="">-->
 
               </div>
               <div class="swiper-slide swiper-content-slide">
-                  <div class="sildeTitle">
-                    <a href="<?= get_permalink(get_page_by_path('about-tape')) ?>">NichiRicaのテープは自然環境に配慮したサステナブルな製品です。</a>
-                    <div class="line">
-                      <div class="main-line"></div>
-                    </div>
+                <div class="sildeTitle">
+                  <a
+                    href="<?= get_permalink(get_page_by_path('about-tape')) ?>">NichiRicaのテープは自然環境に配慮したサステナブルな製品です。</a>
+                  <div class="line">
+                    <div class="main-line"></div>
                   </div>
+                </div>
                 <img class="" src="<?= THEME_URI ?>/assets/images/chevron-right.svg" alt="">
 
 
@@ -111,7 +113,9 @@ get_header();
           <div class="main-line"></div>
         </div>
         <div class="buttonPostWrap">
-          <a href="<?= get_permalink(get_page_by_path('about-tape')) ?>"><div class="buttonPost">詳しく見る</div></a>
+          <a href="<?= get_permalink(get_page_by_path('about-tape')) ?>">
+            <div class="buttonPost">詳しく見る</div>
+          </a>
         </div>
       </div>
     </div>
@@ -129,7 +133,9 @@ get_header();
           <div class="main-line"></div>
         </div>
         <div class="buttonPostWrap">
-          <a href="<?= get_permalink(get_page_by_path('about-nichirica')) ?>"><div class="buttonPost">詳しく見る</div></a>
+          <a href="<?= get_permalink(get_page_by_path('about-nichirica')) ?>">
+            <div class="buttonPost">詳しく見る</div>
+          </a>
         </div>
       </div>
     </div>
@@ -144,40 +150,53 @@ get_header();
     </div>
     <div class="categories--content">
       <div class="categories--item">
-        <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/top/cate1.png" alt="cate-icon-1">
-        </div>
-        <div class="text-wrapper">テープ製品</div>
+        <a href="<?= get_permalink(get_page_by_path('product/tape')) ?>">
+          <div class="circle">
+            <img src="<?= THEME_URI ?>/assets/images/top/cate1.png" alt="cate-icon-1">
+          </div>
+          <div class="text-wrapper">テープ製品</div>
+        </a>
+
       </div>
       <div class="categories--item">
-        <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/top/cate2.png" alt="cate-icon-2">
-        </div>
-        <div class="text-wrapper">用紙</div>
+        <a href="<?= get_permalink(get_page_by_path('product/paper')) ?>">
+          <div class="circle">
+            <img src="<?= THEME_URI ?>/assets/images/top/cate2.png" alt="cate-icon-2">
+          </div>
+          <div class="text-wrapper">用紙</div>
+        </a>
       </div>
       <div class="categories--item">
-        <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/top/cate3.png" alt="cate-icon-3">
-        </div>
-        <div class="text-wrapper">ラベル</div>
+        <a href="<?= get_permalink(get_page_by_path('product/label')) ?>">
+          <div class="circle">
+            <img src="<?= THEME_URI ?>/assets/images/top/cate3.png" alt="cate-icon-3">
+          </div>
+          <div class="text-wrapper">ラベル</div>
+        </a>
       </div>
       <div class="categories--item">
-        <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/top/cate6.png" alt="cate-icon-6">
-        </div>
-        <div class="text-wrapper">自着機能資材</div>
+        <a href="<?= get_permalink(get_page_by_path('product/self-adhesive')) ?>">
+          <div class="circle">
+            <img src="<?= THEME_URI ?>/assets/images/top/cate6.png" alt="cate-icon-6">
+          </div>
+          <div class="text-wrapper">自着機能資材</div>
+        </a>
       </div>
       <div class="categories--item">
-        <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/top/cate4.png" alt="cate-icon-4">
-        </div>
-        <div class="text-wrapper">専用機械</div>
+        <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>">
+          <div class="circle">
+            <img src="<?= THEME_URI ?>/assets/images/top/cate4.png" alt="cate-icon-4">
+          </div>
+          <div class="text-wrapper">専用機械</div>
+        </a>
       </div>
       <div class="categories--item">
-        <div class="circle">
-          <img src="<?= THEME_URI ?>/assets/images/top/cate5.png" alt="cate-icon-5">
-        </div>
-        <div class="text-wrapper">受託塗工</div>
+        <a href="<?= get_permalink(get_page_by_path('product/contract-coating')) ?>">
+          <div class="circle">
+            <img src="<?= THEME_URI ?>/assets/images/top/cate5.png" alt="cate-icon-5">
+          </div>
+          <div class="text-wrapper">受託塗工</div>
+        </a>
       </div>
     </div>
   </div>
@@ -222,7 +241,7 @@ get_header();
       </div>
     </div>
     <div class="section-footer text-center">
-      <a href="<?= get_permalink(get_page_by_path('docs')) ?>" class="nichi-btn">
+      <a href="<?= get_permalink(get_page_by_path('pre-release')) ?>" class="nichi-btn">
         一覧を見る
       </a>
     </div>
