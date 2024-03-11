@@ -2738,6 +2738,14 @@
   display: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.scroll-link {
+  scroll-margin-top: calc(50px + 2.5em);
+}
+
 .accordion-button:not(.collapsed) img {
   transform: rotate(180deg);
 }
