@@ -29,7 +29,10 @@ get_header();
   <div class="products_detail size machine">
     <div class="section-header">
       <div class="header">ガムテープディスペンサー</div>
-      <div class="line"></div>
+      <div class="header-line">
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
     </div>
     <div id="duct tape dispenser"></div>
     <div class="section-content products_detail__content">
@@ -178,7 +181,10 @@ get_header();
   <div class="products_detail size machine" id="double-sided">
     <div class="section-header">
       <div class="header">両面粘着テープ自動貼付機</div>
-      <div class="line"></div>
+      <div class="header-line">
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
     </div>
     <div class="section-content products_detail__content">
       <div class="products_detail__item">
@@ -215,7 +221,10 @@ get_header();
   <div class="products_detail size machine" id="sealing">
     <div class="section-header">
       <div class="header">自動封緘機</div>
-      <div class="line"></div>
+      <div class="header-line">
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
     </div>
     <div class="section-content products_detail__content">
       <div class="products_detail__item">
