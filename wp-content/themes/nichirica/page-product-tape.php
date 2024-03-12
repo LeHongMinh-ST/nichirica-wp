@@ -7,13 +7,13 @@ get_header();
 ?>
 
 
-<?php get_template_part('template-parts/banners/banner-no-image')?>
+<?php get_template_part('template-parts/banners/banner-no-image') ?>
 
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">
         <li>
-          <a href="<?= get_home_url()?>">Top</a>
+          <a href="<?= get_home_url() ?>">Top</a>
         </li>
         <li>
           <a href="<?= get_permalink(get_page_by_path('product')) ?>">製品情報</a>
@@ -29,7 +29,10 @@ get_header();
   <div class="products_detail size tape">
     <div class="section-header">
       <div class="header">水付けガムテープ</div>
-      <div class="line"></div>
+      <div class="header-line">
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
     </div>
     <div class="section-content products_detail__content">
       <div class="products_detail__item">
@@ -107,7 +110,7 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="products_detail__item" >
+      <div class="products_detail__item">
         <div class="header">
           <div class="header-title">
             糸入りガムテープ
@@ -175,7 +178,10 @@ get_header();
   <div class="products_detail size tape">
     <div class="section-header">
       <div class="header">両面粘着テープ関連製品</div>
-      <div class="line"></div>
+      <div class="header-line">
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
     </div>
     <div class="section-content products_detail__content">
       <div class="products_detail__item">
@@ -248,7 +254,34 @@ get_header();
 
     </div>
   </div>
+  <div class="products_detail size tape">
+    <div class="section-header">
+      <div class="header">紹介動画</div>
+      <div class="header-line">
+        <div class="line line-center"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="section-content products_detail__content video">
+      <div class="products_detail__item">
+        <div class="header">
+          <div class="header-title">
+            フリーテーパー作業
+          </div>
+          <div class="line"></div>
+        </div>
+        <div class="content">
+          <iframe width="100%" height="231" src="https://www.youtube.com/embed/UBd5qwrZqoc?si=3rSbfGUjXWSP46KJ"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
 
-  <?= get_template_part('template-parts/banners/banner-footer')?>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<?= get_template_part('template-parts/banners/banner-footer') ?>
 <?php
 get_footer();

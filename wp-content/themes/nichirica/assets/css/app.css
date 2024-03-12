@@ -2039,6 +2039,21 @@
     margin-top: 37px;
   }
 }
+.products_detail .section-header .header-line {
+  margin-top: 14px;
+  width: 100%;
+  display: flex;
+  height: 1px;
+}
+.products_detail .section-header .header-line .line {
+  width: 100%;
+  background: rgba(137, 136, 127, 0.5019607843);
+  height: 1px;
+}
+.products_detail .section-header .header-line .line-center {
+  width: 103px;
+  background: #009E9C;
+}
 .products_detail.rika-mail {
   width: 820px;
 }
@@ -2099,6 +2114,9 @@
     height: auto;
   }
 }
+.products_detail .video .header-title {
+  font-size: 16px !important;
+}
 .products_detail.contract-coating {
   width: 610px;
   font-size: 24px;
@@ -2154,6 +2172,13 @@
   .products_detail__item .header .header-title {
     font-weight: 500 !important;
   }
+}
+.products_detail__item .header .line {
+  width: 100%;
+  max-width: 925px;
+  height: 1px;
+  background: #89887F;
+  margin-top: 15px;
 }
 .products_detail__item .header .header-image {
   margin-top: 10px;
