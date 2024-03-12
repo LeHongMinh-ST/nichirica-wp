@@ -162,10 +162,37 @@ $('.btn-submit-try').click(function (e) {
   }
 })
 
+$.fn.onClassChange = function(cb) {
+  return $(this).each((_, el) => {
+    new MutationObserver(mutations => {
+      mutations.forEach(mutation => cb && cb(mutation.target, mutation.target.className));
+    }).observe(el, {
+      attributes: true,
+      attributeFilter: ['class'] // only listen for class attribute changes
+    });
+  });
+};
+$('#name').onClassChange((el, className) => {
+  if ($('#name').hasClass('is-invalid')) {
+    $('#input-note-name').addClass('error')
+  } else {
+    $('#input-note-name').removeClass('error')
+  }
+});
 
+$('#department').onClassChange((el, className) => {
+  if ($('#department').hasClass('is-invalid')) {
+    $('#input-note-department').addClass('error')
+  } else {
+    $('#input-note-department').removeClass('error')
+  }
+})
 
 function populateYears() {
   var select = document.getElementById("year");
+  if (select === null) {
+    return;
+  }
   var currentYear = new Date().getFullYear();
   for (var i = currentYear; i >= currentYear - 100; i--) {
     var option = document.createElement("option");
@@ -177,6 +204,9 @@ function populateYears() {
 
 function populateMonths() {
   var select = document.getElementById("month");
+  if (select === null) {
+    return;
+  }
   for (var i = 1; i <= 12; i++) {
     var option = document.createElement("option");
     option.text = i;
@@ -185,11 +215,18 @@ function populateMonths() {
   }
 }
 
+
+
+
+
 function populateDays() {
-  var year = document.getElementById("year").value;
-  var month = document.getElementById("month").value;
+  var year = document.getElementById("year")?.value;
+  var month = document.getElementById("month")?.value;
   var daysInMonth = daysInMonthForYearMonth(year, month);
   var select = document.getElementById("day");
+  if (select === null) {
+    return;
+  }
   select.innerHTML = '';
   for (var i = 1; i <= daysInMonth; i++) {
     var option = document.createElement("option");
@@ -211,5 +248,8 @@ populateYears();
 populateMonths();
 populateDays();
 
-document.getElementById("year").addEventListener("change", populateDays);
-document.getElementById("month").addEventListener("change", populateDays);
+document.getElementById("year")?.addEventListener("change", populateDays);
+document.getElementById("month")?.addEventListener("change", populateDays);
+
+
+

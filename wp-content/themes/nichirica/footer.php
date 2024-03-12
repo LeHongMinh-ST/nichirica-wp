@@ -28,14 +28,15 @@
             会社概要・会社沿革・組織図
           </a>
         </li>
-        <li>
-          <a href="<?= get_permalink(get_page_by_path('about/environmental-policy')) ?>">
-            環境方針
-          </a>
-        </li>
+
         <li>
           <a href="<?= get_permalink(get_page_by_path('about/offices')) ?>">
             事業所・グループ企業
+          </a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('about/environmental-policy')) ?>">
+            環境方針
           </a>
         </li>
       </ul>

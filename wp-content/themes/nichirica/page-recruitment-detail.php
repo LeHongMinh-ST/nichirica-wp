@@ -82,7 +82,7 @@ get_header();
   </div>
 
   <div class="recruitment_button">
-    <a href="<?= get_permalink(get_page_by_path('entry')) ?>" class="nichi-btn-bg">
+    <a href="<?= get_permalink(get_page_by_path('recruitment/entry')) ?>" class="nichi-btn-bg">
       エントリー
     </a>
   </div>

@@ -1880,6 +1880,11 @@
   height: auto;
   object-fit: cover;
 }
+@media screen and (max-width: 600px) {
+  .service .engineering-list .engineering-item .engineering-content .engineering-image img {
+    height: 160px;
+  }
+}
 .service .engineering-list .engineering-item .engineering-content .engineering-description {
   max-width: 400px;
   font-size: 16px;
@@ -2296,6 +2301,13 @@
   font-weight: 400;
   line-height: normal;
   padding: 5px;
+}
+.nichi-form__control .input-note.error {
+  color: #CF002D;
+  padding: 0 5px;
+}
+.nichi-form__control .input-note.error .star {
+  color: white;
 }
 .nichi-form__control .group-input {
   display: flex;

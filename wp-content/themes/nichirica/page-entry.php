@@ -5,14 +5,16 @@ Template Name: Entry
 
 get_header();
 ?>
-<?php
-get_template_part('template-parts/banners/banner-no-image');
-?>
+
+<?php get_template_part('template-parts/banners/banner-no-image')?>
   <div class="breadcrumb-area size">
     <nav>
       <ul class="breadcrumb">
         <li>
-          <a href="<?= get_home_url() ?>">Top</a>
+          <a href="<?= get_home_url()?>">Top</a>
+        </li>
+        <li>
+          <a href="<?= get_permalink(get_page_by_path('recruitment')) ?>">採用情報</a>
         </li>
         <li>
         <span class="active">
@@ -23,54 +25,23 @@ get_template_part('template-parts/banners/banner-no-image');
     </nav>
   </div>
   <div class="inquiry size">
-    <div class="section-content inquiry__content ">
-      <form action="" class="nichi-form">
-        <div class="nichi-form__group">
-          <div class="nichi-form__label">お名前</div>
-          <div class="nichi-form__control">
-            <input type="text" >
-          </div>
-        </div>
-        <div class="nichi-form__group">
-          <div class="nichi-form__label">住所</div>
-          <div class="nichi-form__control">
-            <input type="text" >
-          </div>
-        </div>
-        <div class="nichi-form__group">
-          <div class="nichi-form__label">生年月日</div>
-          <div class="nichi-form__control">
-            <input type="text" >
-          </div>
-        </div>
-        <div class="nichi-form__group">
-          <div class="nichi-form__label">電話番号 </div>
-          <div class="nichi-form__control">
-            <input type="text">
-          </div>
-        </div>
-        <div class="nichi-form__group">
-          <div class="nichi-form__label">メールアドレス</div>
-          <div class="nichi-form__control">
-            <input type="email" >
-          </div>
-        </div>
-        <div class="nichi-form__group">
-          <div class="nichi-form__label">最終学歴</div>
-          <div class="nichi-form__control">
-            <input type="text" >
-          </div>
-        </div>
-        <div class="nichi-form__group align-items-start">
-          <div class="nichi-form__label">職歴</div>
-          <div class="nichi-form__control">
-            <textarea></textarea>
-          </div>
-        </div>
-        <div class="nichi-form__group align-items-start">
-          <button class="nichi-btn" type="submit">送信</button>
-        </div>
-      </form>
+    <div class="section-content inquiry__content nichi-form">
+      <?php
+      the_content(
+        sprintf(
+          wp_kses(
+          /* translators: %s: Name of current post. Only visible to screen readers */
+            __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'lancenter' ),
+            array(
+              'span' => array(
+                'class' => array(),
+              ),
+            )
+          ),
+          wp_kses_post( get_the_title() )
+        )
+      );
+      ?>
     </div>
   </div>
 

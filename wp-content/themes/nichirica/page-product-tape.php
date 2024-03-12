@@ -48,24 +48,24 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">段ボール箱の封緘、包装紙の目止め用</div>
+            <div class="message">段ボール箱の封かん、包装紙の目止め用</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
               <ul>
-                <li>水を付けることで接着性が出るテープ。</li>
+                <li>水を付けることで接着性が出るテープ</li>
                 <li>
-                  紙、糊共に天然素材で自然環境に優しい構成 <br>（紙：クラフト紙、晒クラフト紙、糊：澱粉糊）。
+                  紙、糊共に天然素材で自然環境に優しい構成 <br>（紙：クラフト紙、晒クラフト紙、糊：澱粉糊）
                 </li>
                 <li>
-                  澱粉糊は、日本古来使用されており、経年劣化しないことが認められている。
+                  澱粉糊は、日本古来使用されており、経年劣化しないことが認められている
                 </li>
                 <li>
-                  テープ表面に剥離剤を使用していない為、重ね貼り、捺印、筆記、印刷が可能。
+                  テープ表面に剥離剤を使用していない為、重ね貼り、捺印、筆記、印刷が可能
                 </li>
                 <li>
-                  冷凍温度（-40℃）から高温（100℃）まで接着力を維持することが可能。
+                  冷凍温度（-40℃）から高温（100℃）まで接着力を維持することが可能
                 </li>
               </ul>
 
@@ -91,13 +91,13 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">段ボール箱の封緘、包装紙の目止め用</div>
+            <div class="message">段ボール箱の封かん、包装紙の目止め用</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
               <ul>
-                <li>水を付けることで接着性が出るテープ。</li>
+                <li>水を付けることで接着性が出るテープ</li>
                 <li>
                   テープ表面に印刷加工が可能
                 </li>
@@ -124,15 +124,15 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">内容量の重い段ボールの封緘</div>
+            <div class="message">内容量の重い段ボールの封かん</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
               <ul>
-                <li>水を付けることで接着性が出るテープ。</li>
+                <li>水を付けることで接着性が出るテープ</li>
                 <li>
-                  糸が組み込まれており、強度がある。
+                  糸が組み込まれており、強度がある
                 </li>
               </ul>
 
@@ -158,12 +158,12 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">単板の板割れ、亀裂防止及び接合。</div>
+            <div class="message">単板の板割れ、亀裂防止及び接合</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              機械貼り、手貼りにて単板の接合に使用。
+              機械貼り、手貼りにて単板の接合に使用
             </div>
           </div>
         </div>
@@ -200,12 +200,12 @@ get_header();
             <div class="label">特徴:</div>
             <div class="message">
               <ul>
-                <li>従来の封筒口糊に変わる特殊両面粘着テープ。</li>
+                <li>従来の封筒口糊に変わる特殊両面粘着テープ</li>
                 <li>
-                  テープ両サイドにドライエッジ部分を設けています。
+                  テープ両サイドにドライエッジ部分を設けています
                 </li>
                 <li>
-                  各種封筒サイズに応じ、規格を設けています。
+                  各種封筒サイズに応じ、規格を設けています
                 </li>
               </ul>
 

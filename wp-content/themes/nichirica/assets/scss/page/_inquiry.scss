@@ -104,6 +104,15 @@
       font-weight: 400;
       line-height: normal;
       padding: 5px;
+
+      &.error {
+        color: #CF002D;
+        padding: 0 5px;
+
+        .star {
+          color: white;
+        }
+      }
     }
     .group-input {
       display: flex;

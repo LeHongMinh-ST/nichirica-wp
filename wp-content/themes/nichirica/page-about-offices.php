@@ -317,14 +317,14 @@ get_header();
                 本社
               </div>
               <div class="des">
-                Unit 1213, 12/F, TowerⅡ, Cheung Sha Wan Plaza, 833 Cheung Sha Wan Road, Kowloon, Hong Kong<br>TEL：+852-3549-6722<br>FAX：+852-3549-6721
+                Unit 1213, 12/F, Tower Ⅱ, Cheung Sha Wan Plaza, 833 Cheung Sha Wan Road, Kowloon, Hong Kong<br>TEL：+852-3549-6722<br>FAX：+852-3549-6721
               </div>
             </div>
           </div>
           <hr>
 
           <div class="sub-header">
-            TOMOEGAWA HONG KO巴川影像科技（恵州）有限公司NG CO.,LTD
+            巴川影像科技（恵州）有限公司
           </div>
           <p>［事業内容］　複写機・プリンター用トナー等の製造・販売</p>
           <div class=sub-list>
