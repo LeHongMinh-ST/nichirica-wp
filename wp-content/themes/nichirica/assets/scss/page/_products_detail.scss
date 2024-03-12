@@ -194,6 +194,10 @@
         }
 
         .message {
+          max-width: 328px;
+          @include sp {
+            max-width: 100%;
+          }
           .message-item {
             display: flex;
             gap: 20px;

@@ -26,7 +26,7 @@ get_template_part('template-parts/banners/banner-no-image');
   </div>
   <div class="thank-you size">
     <div class="section-content thank-you__content ">
-      ご記入いただいた情報は無事に送信されました。<br>確認のためお客様へ自動返信メールをお送りいたしました。<br><br>エントリーいただきありがとうございました。
+      ご記入いただいた情報は無事に送信されました。<br>内容確認後、担当者よりご連絡させていただきます。<br><br>エントリーいただきありがとうございました。
     </div>
     <div class="section-footer">
       <div class="item-button">

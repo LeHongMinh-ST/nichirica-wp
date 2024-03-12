@@ -46,6 +46,7 @@ get_header();
             <div class="label">用途:</div>
             <div class="message">
               <ul>
+                <li>各種部材の結束・ロット管理、マスキングに使用</li>
                 <li>無害の為、野菜や果物の誘引、結束に使用</li>
                 <li>マイバスケットでのお買い上げ後の印、忘れ物の一時保管札に使用</li>
 

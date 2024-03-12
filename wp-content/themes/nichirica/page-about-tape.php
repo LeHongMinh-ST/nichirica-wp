@@ -165,7 +165,7 @@ get_header();
 
             <div class="content video">
               <div class="title">
-                <div class="header-text">ガムテープと粘着テープの接着力比較</div>
+                <div class="header-text">ガムテープと粘着テープの作業比較</div>
                 <div class="header-line">
                   <div class="line line-center"></div>
                   <div class="line"></div>

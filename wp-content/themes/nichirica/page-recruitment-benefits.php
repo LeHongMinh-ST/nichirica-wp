@@ -41,10 +41,6 @@ get_header();
         <div class="text-wrapper">週休２日制（土日休み）、フレックスタイム制</div>
       </div>
       <div class="recruitment_benefits__item">
-        <div class="label">平均残業時間</div>
-        <div class="text-wrapper">約10時間/月</div>
-      </div>
-      <div class="recruitment_benefits__item">
         <div class="label">保険制度</div>
         <div class="text-wrapper">各種社会保険(雇用保険、労災保険、健康保険、厚生年金保険)</div>
       </div>

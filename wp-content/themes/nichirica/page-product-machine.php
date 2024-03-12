@@ -52,7 +52,7 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ電動繰出し機</div>
+            <div class="message">ガムテープ手動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
@@ -80,7 +80,7 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ電動繰出し機</div>
+            <div class="message">ガムテープ手動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
@@ -112,7 +112,7 @@ get_header();
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              安価で効率的な貼り付けs業が実現ができる
+              安価で効率的な貼り付け作業が実現できる
 
             </div>
           </div>
@@ -136,7 +136,7 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ電動繰出し機</div>
+            <div class="message">ガムテープ手動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
@@ -243,12 +243,12 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープを用いて自動的に封緘するシステム</div>
+            <div class="message">ガムテープを用いて自動的に封かんするシステム</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              封緘前後のシステムもご提案できます。
+              製造現場のニーズに合わせて、封かんシステムの提案が可能。
             </div>
           </div>
         </div>

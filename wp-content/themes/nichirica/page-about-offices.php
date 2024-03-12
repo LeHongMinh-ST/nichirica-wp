@@ -301,7 +301,7 @@ get_header();
                 本社
               </div>
               <div class="des">
-                1101 Perimeter Drive, Suite 610, Schaumburg, IL 60173 U.S.A.<br>TEL：+1-847-541-3001<br>FAX：+1-847-807-8704
+                Prof. <br>J.H. Bavincklaan 2, 1183 AT Amstelveen, The Netherlands<br>TEL：+31-20-6621011<br>FAX：+31-20-6628668
               </div>
             </div>
           </div>

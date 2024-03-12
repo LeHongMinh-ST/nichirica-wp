@@ -2199,6 +2199,14 @@
 .products_detail__item .content .item .label {
   min-width: 85px;
 }
+.products_detail__item .content .item .message {
+  max-width: 328px;
+}
+@media screen and (max-width: 600px) {
+  .products_detail__item .content .item .message {
+    max-width: 100%;
+  }
+}
 .products_detail__item .content .item .message .message-item {
   display: flex;
   gap: 20px;
