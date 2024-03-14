@@ -23,7 +23,7 @@ get_header();
   </div>
   <div class="about_us mr-top-80">
     <div class="section-header">
-      <div class="section-header--title">ガムテープってなんだろう？</div>
+      <div class="section-header--title">NichiRicaってどんな会社？</div>
       <div class="section-header--line">
         <div class="line"></div>
         <div class="line line-center"></div>

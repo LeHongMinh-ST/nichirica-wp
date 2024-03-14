@@ -156,7 +156,7 @@ get_header();
         </div>
         <div class="item-button">
           <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>#sealing" class="">
-            <span class="text">自動封緘機</span>
+            <span class="text">自動封かん機</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
         </div>

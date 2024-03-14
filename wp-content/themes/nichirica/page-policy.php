@@ -59,14 +59,6 @@ get_template_part('template-parts/banners/banner-no-image');
         </div>
         <div class="item">
           <div class="label">
-            利用
-          </div>
-          <div class="content">
-            自動的手段で行われるか否かにかかわらず、個人情報に対して行われるすべての作業または組単位の作業を意味します。この作業は、取得、記録、編集、構造化、保存、修正または変更、復旧、参照、利用、移転による開示、周知またはその他周知を可能なものにすること、整列または結合、制限、消去または破壊することをいいます。
-          </div>
-        </div>
-        <div class="item">
-          <div class="label">
             当社ホームページ
           </div>
           <div class="content">

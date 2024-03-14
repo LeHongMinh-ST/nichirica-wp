@@ -7,11 +7,16 @@ $themePrefix = 'nichirica';
 
 $themeUri = get_template_directory_uri() . '/assets';
 
-$themeVersion = '1.1.8';
+$themeVersion = '1.2.0';
 
 if ( ! defined( 'THEME_URI' ) ) {
   // Replace the version number of the theme on each release.
   define( 'THEME_URI', get_template_directory_uri()  );
+}
+
+if ( ! defined( 'DOMAIN_CURRENT' ) ) {
+  // Replace the version number of the theme on each release.
+  define( 'DOMAIN_CURRENT', get_site_url());
 }
 
 
@@ -206,3 +211,19 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+add_shortcode('custom-language-switcher', 'trpc_custom_language_switcher', 10);
+function trpc_custom_language_switcher(){
+  // Check whether TranslatePress can run on the current path or not. If the path is excluded from translation, trp_allow_tp_to_run will be false
+  if ( apply_filters( 'trp_allow_tp_to_run', true ) ){
+    $languages = trp_custom_language_switcher();
+    $html = "<ul data-no-translation>";
+    foreach ($languages as $name => $item) {
+      $html .= "<li style='list-style-image: url({$item['flag_link']})'>";
+      $html .= "<a href='{$item['current_page_url']}'>";
+      $html .= "<span>{$item['language_name']}</span></a></li>";
+    }
+    $html .= "</ul>";
+    return $html;
+  }
+}

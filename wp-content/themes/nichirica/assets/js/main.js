@@ -65,11 +65,42 @@ const validateEmail = (email) => {
   return re.test(email);
 }
 
+const isNumberIntegers = (inputId) => {
+  const value = $(`#${inputId}`).val();
+  if (value === '') {
+    $(`#${inputId}`).addClass('is-invalid');
+    $(`#input-error-${inputId}`).addClass('show')
+    if (inputId === 'phone1' || inputId === 'phone2' || inputId === 'phone3') {
+      $('#phone1').addClass('is-invalid')
+      $('#phone2').addClass('is-invalid')
+      $('#phone3').addClass('is-invalid')
+      $('#bg-error').addClass('show')
+      $(`#input-error-phone`).addClass('show')
+    }
+    return false;
+  }
+  if (isNaN(value)) {
+    $(`#${inputId}`).addClass('is-invalid');
+    $(`#input-error-${inputId}`).addClass('show')
+    if (inputId === 'phone1' || inputId === 'phone2' || inputId === 'phone3') {
+      $('#phone1').addClass('is-invalid')
+      $('#phone2').addClass('is-invalid')
+      $('#phone3').addClass('is-invalid')
+      $('#bg-error').addClass('show')
+      $(`#input-error-phone`).addClass('show')
+    }
+    return false;
+  }
+  return true;
+}
+
 const validateForm = () => {
   const phone = isValidate('phone1') || isValidate('phone2') || isValidate('phone3');
-  if (!phone) {
+  const phoneNum = isNumberIntegers('phone1') || isNumberIntegers('phone2') || isNumberIntegers('phone3');
+  if (!phone || !phoneNum) {
     $('#bg-error').addClass('show')
   }
+
   const name = isValidate('name');
   const department = isValidate('department');
   const admin = isValidate('admin');
@@ -77,7 +108,7 @@ const validateForm = () => {
   const type = isValidate('type');
   const content = isValidate('content');
   const isEmail = validateEmail($('#email').val());
-  return name && email && phone && department && content && admin && type && isEmail
+  return name && email && phone && department && content && admin && type && isEmail && phoneNum
 }
 
 const validateFormEntry = () => {
@@ -119,6 +150,9 @@ $("select").change(function () {
 $("input, textarea").blur(function () {
   const name = $(this).attr('id');
   isValidate(name);
+  if (name === 'phone1' || name === 'phone2' || name === 'phone3') {
+    isNumberIntegers(name);
+  }
 })
 
 

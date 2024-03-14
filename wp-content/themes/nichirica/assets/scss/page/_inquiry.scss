@@ -86,7 +86,10 @@
           border-color:  #009E9C;
         }
       }
+
+
     }
+
 
     &:has(.checkbox) {
       margin-top: 0;
@@ -279,5 +282,10 @@
 
   .nichi-btn {
     padding: 21px 79px;
+  }
+
+  .link-note {
+    text-decoration: none;
+    color: #009E9C!important;
   }
 }

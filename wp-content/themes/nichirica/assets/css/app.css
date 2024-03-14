@@ -1819,6 +1819,9 @@
   max-width: 400px;
   font-size: 16px;
 }
+.service--item .item-description .note {
+  font-size: 12px;
+}
 .service .engineering-list {
   width: 1240px;
   margin: 112px auto 71px;
@@ -2477,6 +2480,10 @@
 }
 .nichi-form .nichi-btn, .nichi-form .nichi-btn-bg {
   padding: 21px 79px;
+}
+.nichi-form .link-note {
+  text-decoration: none;
+  color: #009E9C !important;
 }
 
 .doc__filter {

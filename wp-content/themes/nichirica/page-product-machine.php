@@ -220,7 +220,7 @@ get_header();
   </div>
   <div class="products_detail size machine" id="sealing">
     <div class="section-header">
-      <div class="header">自動封緘機</div>
+      <div class="header">自動封かん機</div>
       <div class="header-line">
         <div class="line line-center"></div>
         <div class="line"></div>
