@@ -196,6 +196,12 @@
 .footer {
   background: #6f6f6f;
 }
+.footer a {
+  text-decoration: none;
+}
+.footer a:visited {
+  text-decoration: none;
+}
 .footer .main-footer {
   padding: 38px 20px 40px 20px;
   display: flex;
@@ -2203,6 +2209,11 @@
 }
 .products_detail__item .header .header-image {
   margin-top: 10px;
+}
+.products_detail__item .header .header-image img {
+  width: 400px;
+  height: 318px;
+  object-fit: cover;
 }
 @media screen and (max-width: 600px) {
   .products_detail__item .header .header-image img {

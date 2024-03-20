@@ -7,7 +7,7 @@ $themePrefix = 'nichirica';
 
 $themeUri = get_template_directory_uri() . '/assets';
 
-$themeVersion = '1.2.0';
+$themeVersion = '1.2.2';
 
 if ( ! defined( 'THEME_URI' ) ) {
   // Replace the version number of the theme on each release.
@@ -73,6 +73,7 @@ function nichirica_setup() {
 			'menu-1' => esc_html__( 'Primary', 'nichirica' ),
 			'menu-2' => esc_html__( 'Menu About Sub', 'nichirica' ),
 			'menu-3' => esc_html__( 'Menu Recruitment Sub', 'nichirica' ),
+			'menu-4' => esc_html__( 'Menu Product Sub', 'nichirica' ),
 		)
 	);
 

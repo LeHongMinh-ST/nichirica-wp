@@ -121,7 +121,7 @@ get_header();
         </div>
         <div class="item-button">
           <a href="<?= get_permalink(get_page_by_path('product/self-adhesive')) ?>" class="">
-            <span class="text">自着機能資材</span>
+            <span class="text">リカセルフ</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
         </div>

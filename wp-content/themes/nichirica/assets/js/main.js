@@ -65,6 +65,22 @@ const validateEmail = (email) => {
   return re.test(email);
 }
 
+const isValidateEmail = (inputId) => {
+  const value = $(`#${inputId}`).val();
+  if (value === '') {
+    $(`#${inputId}`).addClass('is-invalid');
+    $(`#input-error-${inputId}`).addClass('show')
+    return false;
+  }
+  if (!validateEmail(value)) {
+    $(`#${inputId}`).addClass('is-invalid');
+    $(`#input-error-${inputId}-email`).addClass('show')
+    return false;
+  }
+
+  return true;
+}
+
 const isNumberIntegers = (inputId) => {
   const value = $(`#${inputId}`).val();
   if (value === '') {
@@ -104,7 +120,7 @@ const validateForm = () => {
   const name = isValidate('name');
   const department = isValidate('department');
   const admin = isValidate('admin');
-  const email = isValidate('email');
+  const email = isValidateEmail('email');
   const type = isValidate('type');
   const content = isValidate('content');
   const isEmail = validateEmail($('#email').val());
@@ -144,12 +160,16 @@ $("select").change(function () {
   $(this).removeClass('is-invalid');
   const name = $(this).attr('id');
   $(`#input-error-${name}`).removeClass('show')
+  $(`#input-error-${name}-email`).removeClass('show')
   isValidate(name);
 })
 
 $("input, textarea").blur(function () {
   const name = $(this).attr('id');
   isValidate(name);
+  if (name === 'email') {
+    isValidateEmail(name);
+  }
   if (name === 'phone1' || name === 'phone2' || name === 'phone3') {
     isNumberIntegers(name);
   }

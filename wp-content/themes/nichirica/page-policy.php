@@ -224,6 +224,11 @@ get_template_part('template-parts/banners/banner-no-image');
         保管
       </div>
       <div class="text">
+        当社等は、取得した個人情報について、その取得の目的に必要な限度を超えて、保存することはありません。また、個人情報がその取得の目的に照らして不要となった場合、該当する個人情報を消去します。      </div>
+      <div class="title">
+        お客様の権利
+      </div>
+      <div class="text">
         <p>
           お客様は、当社等が保持する個人情報について、以下の権利を有します。
         </p>

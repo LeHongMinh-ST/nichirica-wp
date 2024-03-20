@@ -5,6 +5,7 @@ Template Name: Product Machine
 
 get_header();
 ?>
+<?php get_template_part('template-parts/header/header-product') ?>
 
 
 <?php get_template_part('template-parts/banners/banner-no-image')?>
@@ -52,7 +53,7 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ手動繰出し機</div>
+            <div class="message">ガムテープ電動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
@@ -66,7 +67,7 @@ get_header();
       <div class="products_detail__item">
         <div class="header">
           <div class="header-title">
-            BP555
+            BP555E
           </div>
           <div class="header-image">
             <img src="<?= THEME_URI ?>/assets/images/machine2.png " alt="product">
@@ -76,11 +77,11 @@ get_header();
         <div class="content">
           <div class="item">
             <div class="label">製品名:</div>
-            <div class="message">BP555</div>
+            <div class="message">BP555E</div>
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ手動繰出し機</div>
+            <div class="message">ガムテープ電動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
@@ -136,12 +137,12 @@ get_header();
           </div>
           <div class="item">
             <div class="label">用途:</div>
-            <div class="message">ガムテープ手動繰出し機</div>
+            <div class="message">ガムテープ電動繰出し機</div>
           </div>
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              色々な箱のサイズに素早く対応でき、しかも本体が安価なタイプ
+              色々な箱のサイズに素早く対応できる、電動式新型モデル
             </div>
           </div>
         </div>
@@ -170,7 +171,7 @@ get_header();
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              安く簡易的にガムテープで作業したい方におすすめ！
+              軽量で取り回しが良く、効率的・簡易的に貼り付け作業が可能
             </div>
           </div>
         </div>
@@ -208,7 +209,20 @@ get_header();
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              両面テープ対応幅５～１５ｍｍ、奥行き４０ｍｍの位置に貼り付ける
+              <ul>
+                <li>
+                  持ち運びが可能なタイプ
+                </li>
+                <li>
+                  角０封筒～ポスターのような大きいサイズにも対応
+                </li>
+                <li>
+                  適合範囲内であれば封筒以外にも対応
+                </li>
+                <li>
+                  自動給紙装置との組み合わせに対応
+                </li>
+              </ul>
 
             </div>
           </div>
@@ -248,7 +262,7 @@ get_header();
           <div class="item">
             <div class="label">特徴:</div>
             <div class="message">
-              製造現場のニーズに合わせて、封かんシステムの提案が可能。
+              製造現場のニーズに合わせて、封かんシステムの提案が可能
             </div>
           </div>
         </div>

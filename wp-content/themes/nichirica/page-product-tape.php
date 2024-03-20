@@ -5,6 +5,7 @@ Template Name: Product Tape
 
 get_header();
 ?>
+<?php get_template_part('template-parts/header/header-product') ?>
 
 
 <?php get_template_part('template-parts/banners/banner-no-image') ?>

@@ -5,6 +5,7 @@ Template Name: Product Self Adhesive
 
 get_header();
 ?>
+<?php get_template_part('template-parts/header/header-product') ?>
 
 
 <?php get_template_part('template-parts/banners/banner-no-image')?>
