@@ -135,7 +135,7 @@ get_header();
       <div class="item">
         <div class="label">1955年9月（昭和30年）</div>
         <div class="text-wrapper">
-          資本金を10,000,000に増資
+          資本金を10,000,000円に増資
         </div>
       </div>
       <div class="item">
@@ -184,7 +184,7 @@ get_header();
       <div class="item">
         <div class="label">1979年11月 （昭和54年）</div>
         <div class="text-wrapper">
-          資本金を100,000,000に増資
+          資本金を100,000,000円に増資
         </div>
       </div>
       <div class="item">
@@ -276,15 +276,15 @@ get_header();
         </tr>
         <tr>
           <td>取締役</td>
-          <td>元吉　紳一</td>
-        </tr>
-        <tr>
-          <td>取締役</td>
           <td>渋谷　章広</td>
         </tr>
         <tr>
           <td>取締役</td>
           <td>中本　亘</td>
+        </tr>
+        <tr>
+          <td>取締役</td>
+          <td>元吉　紳一</td>
         </tr>
         <tr>
           <td>取締役</td>

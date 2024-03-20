@@ -30,6 +30,9 @@
 
   &.rika-mail {
     width: 820px;
+    .content {
+      max-width: 100%;
+    }
 
     .products_detail__item {
       width: 100%;
@@ -46,7 +49,8 @@
       }
     }
     .message {
-      max-width: 505px;
+      //max-width: 505px;
+      max-width: 100%!important;
     }
   }
 
@@ -56,6 +60,11 @@
     .products_detail__item {
       margin-top: 0;
     }
+
+    .content {
+      max-width: 400px;
+    }
+
     @include sp {
       width: 100%;
       padding: 0 20px;
@@ -189,13 +198,16 @@
 
     .content {
       margin-top: 60px;
+      max-width: 400px;
+
 
       .item {
         margin-top: 17px;
         display: flex;
+        gap: 8px;
 
         .label {
-          min-width: 85px;
+          min-width: 64px;
         }
 
         .message {

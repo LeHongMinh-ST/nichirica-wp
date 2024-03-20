@@ -2084,6 +2084,9 @@
 .products_detail.rika-mail {
   width: 820px;
 }
+.products_detail.rika-mail .content {
+  max-width: 100%;
+}
 .products_detail.rika-mail .products_detail__item {
   width: 100%;
 }
@@ -2097,13 +2100,16 @@
   height: auto;
 }
 .products_detail.rika-mail .message {
-  max-width: 505px;
+  max-width: 100% !important;
 }
 .products_detail.self-adhesive {
   width: 630px;
 }
 .products_detail.self-adhesive .products_detail__item {
   margin-top: 0;
+}
+.products_detail.self-adhesive .content {
+  max-width: 400px;
 }
 @media screen and (max-width: 600px) {
   .products_detail.self-adhesive {
@@ -2223,13 +2229,15 @@
 }
 .products_detail__item .content {
   margin-top: 60px;
+  max-width: 400px;
 }
 .products_detail__item .content .item {
   margin-top: 17px;
   display: flex;
+  gap: 8px;
 }
 .products_detail__item .content .item .label {
-  min-width: 85px;
+  min-width: 64px;
 }
 .products_detail__item .content .item .message {
   max-width: 328px;
@@ -2869,6 +2877,13 @@ header {
   max-width: 100%;
   width: 100%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.is-sticky .header-sub {
+  position: fixed;
+  z-index: 1000;
+  top: 60px;
+  max-width: 100%;
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
   .is-sticky header {

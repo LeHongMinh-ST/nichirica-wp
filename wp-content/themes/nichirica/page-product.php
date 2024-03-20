@@ -50,7 +50,7 @@ get_header();
         </div>
         <div class="item-button">
           <a href="<?= get_permalink(get_page_by_path('product/tape')) ?>#double-sided" class="">
-            <span class="text">両面粘着テープ関連製品</span>
+            <span class="text">両面粘着テープ</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
         </div>
@@ -74,7 +74,7 @@ get_header();
         </div>
         <div class="item-button">
           <a href="<?= get_permalink(get_page_by_path('product/paper')) ?>" class="">
-            <span class="text">圧着はがき用紙関連製品</span>
+            <span class="text">リカメール</span>
             <img class="arrow" src="<?= THEME_URI ?>/assets/images/arrow-right.svg" alt="arrow">
           </a>
         </div>

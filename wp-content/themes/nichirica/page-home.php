@@ -163,7 +163,7 @@ get_header();
           <div class="circle">
             <img src="<?= THEME_URI ?>/assets/images/top/cate2.png" alt="cate-icon-2">
           </div>
-          <div class="text-wrapper">用紙</div>
+          <div class="text-wrapper">印刷用紙</div>
         </a>
       </div>
       <div class="categories--item">

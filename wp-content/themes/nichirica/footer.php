@@ -47,32 +47,32 @@
       </div>
       <ul class="list-menu">
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-tape">
+          <a href="<?= get_permalink(get_page_by_path('product/tape')) ?>">
             テープ製品
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-paper">
+          <a href="<?= get_permalink(get_page_by_path('product/paper')) ?>">
             印刷用紙
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?> #product-label">
+          <a href="<?= get_permalink(get_page_by_path('product/label')) ?>">
             ラベル
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-self-adhesive">
+          <a href="<?= get_permalink(get_page_by_path('product/self-adhesive')) ?>">
             自着機能資材
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-machine">
+          <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>">
             専用機械
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-contract-coating">
+          <a href="<?= get_permalink(get_page_by_path('product/contract-coating')) ?>">
             受託塗工
           </a>
         </li>
@@ -129,7 +129,7 @@
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('press-release')) ?>">
+          <a href="<?= get_permalink(get_page_by_path('pre-release')) ?>">
             プレスリリース
           </a>
         </li>
@@ -191,32 +191,32 @@
 
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-tape">
+          <a href="<?= get_permalink(get_page_by_path('product/tape')) ?>">
             テープ製品
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-paper">
+          <a href="<?= get_permalink(get_page_by_path('product/paper')) ?>">
             印刷用紙
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?> #product-label">
+          <a href="<?= get_permalink(get_page_by_path('product/label')) ?>">
             ラベル
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-self-adhesive">
+          <a href="<?= get_permalink(get_page_by_path('product/self-adhesive')) ?>">
             自着機能資材
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-machine">
+          <a href="<?= get_permalink(get_page_by_path('product/machine')) ?>">
             専用機械
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('product')) ?>#product-contract-coating">
+          <a href="<?= get_permalink(get_page_by_path('product/contract-coating')) ?>">
             受託塗工
           </a>
         </li>
@@ -276,7 +276,7 @@
           </a>
         </li>
         <li>
-          <a href="<?= get_permalink(get_page_by_path('press-release')) ?>">
+          <a href="<?= get_permalink(get_page_by_path('pre-release')) ?>">
             プレスリリース
           </a>
         </li>

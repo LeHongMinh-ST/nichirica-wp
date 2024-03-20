@@ -120,7 +120,7 @@ get_header();
             糸入りガムテープ
           </div>
           <div class="header-image">
-            <img src="<?= THEME_URI ?>/assets/images/tape3.png " alt="product">
+            <img src="<?= THEME_URI ?>/assets/images/tape3.jpeg " alt="product">
 
           </div>
         </div>

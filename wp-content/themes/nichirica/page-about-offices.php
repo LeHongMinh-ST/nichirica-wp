@@ -149,10 +149,10 @@ get_header();
                 FAX
               </div>
               <div class="des">
-                03-3516-3401
+                03-3516-3391
               </div>
             </div>
-            <div class="sub-item">
+            <div c1lass="sub-item">
               <div class="title">
                 事業内容
               </div>
