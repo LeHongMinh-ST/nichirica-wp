@@ -1,5 +1,7 @@
 .faq{
-  padding: 100px 230px;
+  padding: 100px 0px;
+  width: 100%;
+  max-width: 712px!important;
   .wrapTop{
     .itemContent{
       .title{
@@ -30,6 +32,9 @@
       font-size: 32px;
       font-weight: bold;
       text-align: center;
+      background-color: #009e9c;
+      padding: 16px 0;
+      color: white;
     }
     .content{
       font-size: 24px;

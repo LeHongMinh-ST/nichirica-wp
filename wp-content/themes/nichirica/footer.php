@@ -10,7 +10,9 @@
  */
 
 ?>
-
+<button id="back-to-top-btn">
+  <img src="<?= THEME_URI ?>/assets/images/for_top.png" alt="">
+</button>
 <div class="footer footer-pc">
   <div class="main-footer size">
     <div class="item-list">

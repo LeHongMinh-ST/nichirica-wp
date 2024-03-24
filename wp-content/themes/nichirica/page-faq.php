@@ -199,11 +199,11 @@ get_header();
     </div>
     <div class="wapBot">
       <div class="title">仕事について</div>
-      <div class="section-header--line w-100">
-        <div class="line"></div>
-        <div class="line line-center"></div>
-        <div class="line"></div>
-      </div>
+<!--      <div class="section-header--line w-100">-->
+<!--        <div class="line"></div>-->
+<!--        <div class="line line-center"></div>-->
+<!--        <div class="line"></div>-->
+<!--      </div>-->
       <div class="content">
         <div class="item_q" id="q1">配属はどのように決まりますか？</div>
         <div class="item_a">所属部署は面接のなかでご本人の希望をお伺いした後、適性や今後のキャリアも踏まえ入社後に配属先を最終決定します。</div>
@@ -221,28 +221,32 @@ get_header();
         <div class="item_a">ほとんどありません。 </div>
       </div>
       <div class="title">選考について</div>
-      <div class="section-header--line w-100">
-        <div class="line"></div>
-        <div class="line line-center"></div>
-        <div class="line"></div>
-      </div>
+<!--      <div class="section-header--line w-100">-->
+<!--        <div class="line"></div>-->
+<!--        <div class="line line-center"></div>-->
+<!--        <div class="line"></div>-->
+<!--      </div>-->
       <div class="content">
         <div class="item_q" id="6">エントリー時に資格は必要ですか?また資格は採用の条件になりますか?</div>
         <div class="item_a">選考時の採用条件になることはござません。</div>
       </div>
       <div class="title">福利厚生について</div>
-      <div class="section-header--line w-100">
-        <div class="line"></div>
-        <div class="line line-center"></div>
-        <div class="line"></div>
-      </div>
+<!--      <div class="section-header--line w-100">-->
+<!--        <div class="line"></div>-->
+<!--        <div class="line line-center"></div>-->
+<!--        <div class="line"></div>-->
+<!--      </div>-->
       <div class="content">
         <div class="item_q" id="q7">資格取得に関する支援制度などはありますか?</div>
         <div class="item_a"> 弊社では技術系資格取得に関する書籍代や受験費用をサポートしています。その他一部自己啓発系の資格取得サポートもしています。資格取得者には社内規定に基づいた資格手当を支給しています。</div>
         <div class="item_q" id="q8">休日、休暇について教えてください。</div>
         <div class="item_a">土日のほか、年末年始・GW・夏期休暇があります。 </div>
         <div class="item_q" id="q9">評価制度について教えてください。</div>
-        <div class="item_a"> 評価のフィードバック面談を定期的に行っています。面談は、上司から評価の開示や業務に対する指導、課題解決に向けてのアドバイスを行うと共に、社員自身の悩みや不満、今後のキャリアについて話し合う場としています。個人の能力に応じて評価し、昇給・昇格・賞与に反映しています。人事評価：社員の昇格、任命、配属、指導訓練の参考となる評価賞与評価：個人の成果に応じた賞与支給額を決定する評価業績評価：組織の業績に応じた賞与支給額に反映される評価。</div>
+        <div class="item_a">
+          評価のフィードバック面談を定期的に行っています。面談は、上司から評価の開示や業務に対する指導、課題解決に向けてのアドバイスを行うと共に、社員自身の悩みや不満、今後のキャリアについて話し合う場としています。個人の能力に応じて評価し、昇給・昇格・賞与に反映しています。<br>
+          人事評価：社員の昇格、任命、配属、指導訓練の参考となる評価 <br>
+          賞与評価：個人の成果に応じた賞与支給額を決定する評価 <br>
+          業績評価：組織の業績に応じた賞与支給額に反映される評価。</div>
         <div class="item_q" id="q10">育児休暇はありますか?。</div>
         <div class="item_a">社内規程に基づき育児休暇が取得できます。 </div>
       </div>

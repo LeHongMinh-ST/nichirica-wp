@@ -230,8 +230,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 96px;
     flex-wrap: wrap;
+    @include sp {
+      gap: 24px;
+    }
   }
 
   &--item {

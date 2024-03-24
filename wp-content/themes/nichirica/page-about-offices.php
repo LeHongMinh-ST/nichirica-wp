@@ -76,7 +76,7 @@ get_header();
               <div class="address-description small">
                 <div class="map">
                   <a target="_blank"
-                     href="https://www.google.co.jp/maps/place/%EF%BC%88%E6%A0%AA%EF%BC%89NichiRica+%E6%9C%AC%E7%A4%BE%E3%83%BB%E8%8D%89%E8%96%99%E5%B7%A5%E5%A0%B4/@35.006009,138.4387946,15.81z/data=!4m6!3m5!1s0x601a342cdb9e378f:0x5d8c73fbd4cd1c10!8m2!3d35.003735!4d138.439676!16s%2Fg%2F1tgf38bp?entry=ttu">
+                     href="https://www.google.com/maps/place/Kyobashi+Trust+Tower,+2-ch%C5%8Dme-1-3+Ky%C5%8Dbashi,+Chuo+City,+Tokyo+104-0031,+Nh%E1%BA%ADt+B%E1%BA%A3n/@35.6778136,139.7675397,17z/data=!3m1!4b1!4m6!3m5!1s0x60188be326173591:0xca511b3c7f15b519!8m2!3d35.6778093!4d139.77012!16s%2Fg%2F11c71mmkjc?entry=ttu">
                     <img src="<?= THEME_URI ?>/assets/images/map-indicator.svg" alt="map"> MAP
                   </a>
                 </div>
@@ -95,7 +95,7 @@ get_header();
               <div class="address-description small">
                 <div class="map">
                   <a target="_blank"
-                     href="https://www.google.co.jp/maps/place/%EF%BC%88%E6%A0%AA%EF%BC%89NichiRica+%E6%9C%AC%E7%A4%BE%E3%83%BB%E8%8D%89%E8%96%99%E5%B7%A5%E5%A0%B4/@35.006009,138.4387946,15.81z/data=!4m6!3m5!1s0x601a342cdb9e378f:0x5d8c73fbd4cd1c10!8m2!3d35.003735!4d138.439676!16s%2Fg%2F1tgf38bp?entry=ttu">
+                     href="https://www.google.com/maps/place/1-ch%C5%8Dme-3-23+Momodani,+Ikuno+Ward,+Osaka,+544-0034,+Nh%E1%BA%ADt+B%E1%BA%A3n/@34.6597481,135.5263759,17z/data=!3m1!4b1!4m6!3m5!1s0x6000de0190e88fad:0x53446becbe03e4ca!8m2!3d34.6597437!4d135.5289562!16s%2Fg%2F11c4rmjnns?entry=ttu">
                     <img src="<?= THEME_URI ?>/assets/images/map-indicator.svg" alt="map"> MAP
                   </a>
                 </div>
@@ -152,7 +152,7 @@ get_header();
                 03-3516-3391
               </div>
             </div>
-            <div c1lass="sub-item">
+            <div class="sub-item">
               <div class="title">
                 事業内容
               </div>
