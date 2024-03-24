@@ -9,7 +9,7 @@
     margin-bottom: 30px!important;
   }
   &__content {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
 
     @include sp {

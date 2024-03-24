@@ -1,10 +1,12 @@
 .products {
+
+  width: 100%;
   margin-top: 37px !important;
   &.last {
     margin-bottom: 80px !important;
   }
   &--list {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     margin-top: 54px!important;
     display: flex;

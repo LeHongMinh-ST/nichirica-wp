@@ -1,9 +1,10 @@
 .about {
+  width: 100%;
   margin-top: 23px!important;
   margin-bottom: 31px!important;
 
   &--list {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     display: flex;
     gap: 20px;

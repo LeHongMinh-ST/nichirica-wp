@@ -3,7 +3,7 @@
   margin-bottom: 80px !important;
 
   &__content {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     margin-bottom: 91px;
     @include sp {
@@ -51,6 +51,12 @@
   align-items: center;
   flex-wrap: wrap;
   background: #FFFFFF;
+
+  &.parttime {
+    .item {
+      width: 100%;
+    }
+  }
 
   .item {
     text-align: center;
@@ -108,3 +114,5 @@
     display: block;
   }
 }
+
+

@@ -1,11 +1,13 @@
 .about_message {
   margin-top: 120px!important;
   margin-bottom: 150px!important;
+  width: 100%;
   &__left {
     max-width: 495px;
   }
   .about_message__content_pc {
     display: flex;
+    flex-wrap: wrap-reverse;
     @include sp {
       display: none;
     }
@@ -19,7 +21,7 @@
   }
 
   &__content {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     padding-left: 106px;
     display: flex;

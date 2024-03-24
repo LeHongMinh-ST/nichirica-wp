@@ -5,7 +5,8 @@
   }
 
   &__content {
-    width: 820px;
+    width: 100%;
+    max-width: 820px;
     margin: 0 auto;
     @include sp {
       width: 100%;

@@ -96,7 +96,8 @@ header {
 
   &--line {
     margin: 0 auto;
-    width: 1240px;
+    max-width: 1240px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +126,8 @@ header {
 }
 
 .breadcrumb-area {
-  width: 1240px;
+  max-width: 1280px;
+  width: calc(100% - 40px);
   margin: 0 auto;
   margin-top: 23px!important;
   @include sp {

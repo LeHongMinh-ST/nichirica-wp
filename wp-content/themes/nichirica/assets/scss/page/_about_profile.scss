@@ -1,9 +1,9 @@
 .about_profile {
   margin-top: 70px !important;
   margin-bottom: 120px !important;
-
+  width: 100%;
   &__content {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     margin-top: 33px !important;
     @include sp {

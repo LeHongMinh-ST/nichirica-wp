@@ -1,5 +1,6 @@
 .products_detail {
-  width: 1050px;
+  width: 100%;
+  max-width: 1050px!important;
   margin: 44px auto 50px!important;
 
   &:first-child {
@@ -157,6 +158,7 @@
     @include sp {
       width: 100%;
       margin-top: 30px;
+      min-width: unset;
     }
 
     .header {

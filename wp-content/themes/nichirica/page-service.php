@@ -51,13 +51,13 @@ get_header();
     </div>
     <div class="section-content service--list">
       <div class="service--item">
-        <div class="item-image">
+        <di1v class="item-image">
           <img src="<?= THEME_URI ?>/assets/images/service2.png" alt="service">
-        </div>
+        </di1v>
         <div class="item-description">
           ７０余年前ににかわ水溶液から始まった当社の水糊（再湿活性接着剤）は、社内研鑽を経て１９６０年代に現在のでんぷん主体の水糊へと進化して参りました。<br><br>
           当社では、各種でんぷんの溶解、分解、端末重合の社内調合に注力し、他社では実現が難しいでんぷん原材料のコントロールを行うことで、様々なニーズにお応えします。<br><br>
-          『でんぷんを主体としたサステナブルなテープを使いたい。』など、これからの社会ニーズにお応えするべく、当社はこれからも精進して参ります。<br><br>
+          『でんぷんを主体とした環境に配慮したテープを使いたい。』など、これからの社会ニーズにお応えするべく、当社はこれからも精進して参ります。<br><br>
         </div>
       </div>
       <div class="service--item">

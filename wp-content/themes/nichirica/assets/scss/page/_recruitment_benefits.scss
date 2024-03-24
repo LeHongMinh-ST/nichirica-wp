@@ -19,7 +19,7 @@
   }
 
   &__content {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     padding-top: 40px;
     @include sp {
@@ -91,7 +91,7 @@
   }
 
   &__content {
-    width: 1240px;
+    width: calc(100% - 40px);
     margin: 0 auto;
     padding-top: 60px;
     display: flex;
